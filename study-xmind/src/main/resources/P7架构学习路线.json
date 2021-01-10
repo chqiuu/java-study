@@ -1,0 +1,5194 @@
+{
+  "id": "root",
+  "structure": "mind_right",
+  "leftChildren": [
+    {
+      "id": "24d7c3e824ea",
+      "title": "P8高级架构师<br>",
+      "style": {
+        "font-size": 20,
+        "border-color": "#55beed"
+      },
+      "lineStyle": {
+        "lineColor": "#55beed",
+        "randomLineColor": "#FDB813"
+      },
+      "link": {
+        "title": "P8架构学习路线",
+        "value": "https://www.processon.com/view/link/5ece30f91e08530a9b241122",
+        "type": "url"
+      },
+      "parent": "root",
+      "children": [],
+      "collapsed": false
+    }
+  ],
+  "title": "图灵Java架构师学习路线-对标阿里P7",
+  "style": {
+    "text-align": "center",
+    "font-size": 28
+  },
+  "root": true,
+  "link": {
+    "title": "课程网站",
+    "value": "https://ke.qq.com/course/231516?tuin=c93d1ae4",
+    "type": "url"
+  },
+  "theme": "colorLines",
+  "children": [
+    {
+      "id": "b347a72c90476824afb2",
+      "title": "性能调优专题",
+      "lineStyle": {
+        "randomLineColor": "rgb(212, 164, 235)"
+      },
+      "children": [
+        {
+          "id": "4d27d192f3ea",
+          "title": "Jvm性能调优",
+          "style": {
+            "font-weight": "bold"
+          },
+          "children": [
+            {
+              "id": "69becb641117",
+              "title": "JVM类加载机制详解",
+              "children": [
+                {
+                  "id": "780afa75c5cb",
+                  "title": "从JDK源码(C++)级别深度剖析类加载全过程",
+                  "children": [],
+                  "parent": "69becb641117"
+                },
+                {
+                  "id": "96369a280b21",
+                  "title": "启动类、扩展类、应用程序类加载器源码深度剖析",
+                  "parent": "69becb641117",
+                  "children": []
+                },
+                {
+                  "id": "ac8266a6cd8a",
+                  "title": "类加载双亲委派机制及如何打破详解<br>",
+                  "parent": "69becb641117",
+                  "children": []
+                },
+                {
+                  "id": "54dc83cb46f1",
+                  "title": "手写自定义类加载器",
+                  "parent": "69becb641117",
+                  "children": []
+                },
+                {
+                  "id": "5cac58ad1cbb",
+                  "title": "Tomcat类加载机制源码剖析",
+                  "parent": "69becb641117",
+                  "children": []
+                }
+              ],
+              "parent": "4d27d192f3ea",
+              "collapsed": false
+            },
+            {
+              "id": "f5310b4dd91b",
+              "title": "JVM内存模型",
+              "children": [
+                {
+                  "id": "acdb8bcea714",
+                  "title": "堆内存分代机制及对象生命周期详解",
+                  "parent": "f5310b4dd91b",
+                  "children": []
+                },
+                {
+                  "id": "459dabdf24be",
+                  "title": "线程栈及栈帧内部结构详解",
+                  "children": [],
+                  "parent": "f5310b4dd91b"
+                },
+                {
+                  "id": "bc5d451c5742",
+                  "title": "方法区(元空间)及常量池详解(深入到Hotspot底层C++级别解析)",
+                  "parent": "f5310b4dd91b",
+                  "children": []
+                },
+                {
+                  "id": "3756eb054786",
+                  "title": "程序计数器详解",
+                  "children": [],
+                  "parent": "f5310b4dd91b"
+                },
+                {
+                  "id": "aff1f9ec2ce3",
+                  "title": "本地方法栈详解",
+                  "children": [],
+                  "parent": "f5310b4dd91b"
+                }
+              ],
+              "parent": "4d27d192f3ea",
+              "collapsed": false
+            },
+            {
+              "id": "9bb33706defd",
+              "title": "类字节码文件深度剖析",
+              "children": [
+                {
+                  "id": "de30fc8a6ae0",
+                  "title": "数据类型",
+                  "children": [
+                    {
+                      "id": "1d3782f9546d",
+                      "title": "无符号数",
+                      "children": [],
+                      "parent": "de30fc8a6ae0"
+                    },
+                    {
+                      "id": "822060318f09",
+                      "title": "表",
+                      "children": [],
+                      "parent": "de30fc8a6ae0"
+                    }
+                  ],
+                  "parent": "9bb33706defd"
+                },
+                {
+                  "id": "e6a238a739b8",
+                  "title": "组成",
+                  "children": [
+                    {
+                      "id": "c210068d9068",
+                      "title": "0~3字节：魔数：文件类型",
+                      "children": [
+                        {
+                          "id": "b54d6452751e",
+                          "title": "",
+                          "children": [],
+                          "parent": "c210068d9068"
+                        }
+                      ],
+                      "parent": "e6a238a739b8"
+                    },
+                    {
+                      "id": "c6ad31501866",
+                      "title": "4~7字节：jdk本号",
+                      "parent": "e6a238a739b8",
+                      "children": []
+                    },
+                    {
+                      "id": "4c63127c3511",
+                      "title": "常量池",
+                      "parent": "e6a238a739b8",
+                      "children": [
+                        {
+                          "id": "577a645aa18a",
+                          "title": "字面量：常量字符串、final常量值",
+                          "parent": "4c63127c3511",
+                          "children": []
+                        },
+                        {
+                          "id": "65de84264c9e",
+                          "title": "符号引用",
+                          "parent": "4c63127c3511",
+                          "children": [
+                            {
+                              "id": "df575c0084b9",
+                              "title": "类和接口的fully Qualified Name",
+                              "children": [],
+                              "parent": "65de84264c9e"
+                            },
+                            {
+                              "id": "0fdbefcc7976",
+                              "title": "字段的方法和描述符",
+                              "children": [],
+                              "parent": "65de84264c9e"
+                            },
+                            {
+                              "id": "59b1dd8095e4",
+                              "title": "方法的名称和描述符",
+                              "children": [],
+                              "parent": "65de84264c9e"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "c571963b5859",
+                      "title": "u2访问标志：类/接口、public、final、abstract",
+                      "children": [],
+                      "parent": "e6a238a739b8"
+                    },
+                    {
+                      "id": "5c61a3e6cbba",
+                      "title": "继承关系",
+                      "parent": "e6a238a739b8",
+                      "children": [
+                        {
+                          "id": "3879cfb88ad5",
+                          "title": "u2类索引：类的全限定名",
+                          "parent": "5c61a3e6cbba",
+                          "children": []
+                        },
+                        {
+                          "id": "890bf7268066",
+                          "title": "u2父索引：父类的全限定名",
+                          "parent": "5c61a3e6cbba",
+                          "children": []
+                        },
+                        {
+                          "id": "0f66ad245446",
+                          "title": "nu2+1接口索引：实现接口的全新定名",
+                          "parent": "5c61a3e6cbba",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": "a6cb53eddd0b",
+                      "title": "字段表集合：描述接口、变量",
+                      "children": [
+                        {
+                          "id": "386951cee73f",
+                          "title": "u2访问标志",
+                          "parent": "a6cb53eddd0b",
+                          "children": []
+                        },
+                        {
+                          "id": "2f6f05c0d244",
+                          "title": "u2 name_index",
+                          "parent": "a6cb53eddd0b",
+                          "children": []
+                        },
+                        {
+                          "id": "2a6975cc9926",
+                          "title": "u2 descriptor_index",
+                          "children": [],
+                          "parent": "a6cb53eddd0b"
+                        },
+                        {
+                          "id": "71254bb53ba2",
+                          "title": "u2 attributes_count",
+                          "children": [],
+                          "parent": "a6cb53eddd0b"
+                        },
+                        {
+                          "id": "93cdf633729e",
+                          "title": "u2 attributes",
+                          "parent": "a6cb53eddd0b",
+                          "children": []
+                        }
+                      ],
+                      "parent": "e6a238a739b8"
+                    },
+                    {
+                      "id": "980c7486868e",
+                      "title": "方法表集合：描述方法",
+                      "parent": "e6a238a739b8",
+                      "children": []
+                    },
+                    {
+                      "id": "6519820799d8",
+                      "title": "属性表集合",
+                      "parent": "e6a238a739b8",
+                      "children": [
+                        {
+                          "id": "08f7edd517ee",
+                          "title": "code属性",
+                          "parent": "6519820799d8",
+                          "children": []
+                        },
+                        {
+                          "id": "33ae7614ee65",
+                          "title": "exception属性",
+                          "parent": "6519820799d8",
+                          "children": []
+                        },
+                        {
+                          "id": "7b28705722f4",
+                          "title": "LineNumberTable属性",
+                          "parent": "6519820799d8",
+                          "children": []
+                        },
+                        {
+                          "id": "74e30f6724d8",
+                          "title": "LocalVariableTable属性",
+                          "parent": "6519820799d8",
+                          "children": []
+                        },
+                        {
+                          "id": "837936a60f05",
+                          "title": "sourceFile属性",
+                          "parent": "6519820799d8",
+                          "children": []
+                        },
+                        {
+                          "id": "97386c91b074",
+                          "title": "constantvalue属性：通知虚拟机自动为静态变量赋值",
+                          "children": [],
+                          "parent": "6519820799d8"
+                        },
+                        {
+                          "id": "a6bb98a7557b",
+                          "title": "innerClass属性",
+                          "parent": "6519820799d8",
+                          "children": []
+                        },
+                        {
+                          "id": "653d0a6db415",
+                          "title": "Deprecated和Synthetic属性",
+                          "parent": "6519820799d8",
+                          "children": []
+                        },
+                        {
+                          "id": "aba79e2d0a6a",
+                          "title": "stackMapTable属性",
+                          "parent": "6519820799d8",
+                          "children": []
+                        },
+                        {
+                          "id": "cf0f21db94a6",
+                          "title": "Signature属性：记录泛型信息",
+                          "parent": "6519820799d8",
+                          "children": []
+                        },
+                        {
+                          "id": "541b18934564",
+                          "title": "BootstrapMethod属性",
+                          "parent": "6519820799d8",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ],
+                  "parent": "9bb33706defd"
+                }
+              ],
+              "parent": "4d27d192f3ea",
+              "collapsed": false
+            },
+            {
+              "id": "1ccc2e70c6b4",
+              "title": "垃圾收集机制详解",
+              "parent": "4d27d192f3ea",
+              "children": [
+                {
+                  "id": "d9166c2f8f35",
+                  "title": "垃圾收集算法详解",
+                  "children": [
+                    {
+                      "id": "4abdf0f0cc08",
+                      "title": "标记清除算法详解",
+                      "parent": "d9166c2f8f35",
+                      "children": []
+                    },
+                    {
+                      "id": "147ba5defe84",
+                      "title": "复制算法详解",
+                      "children": [],
+                      "parent": "d9166c2f8f35"
+                    },
+                    {
+                      "id": "03ce3dfcdebc",
+                      "title": "标记整理算法详解",
+                      "children": [],
+                      "parent": "d9166c2f8f35"
+                    },
+                    {
+                      "id": "b7d461b0c538",
+                      "title": "分代垃圾收集算法详解",
+                      "children": [],
+                      "parent": "d9166c2f8f35"
+                    }
+                  ],
+                  "parent": "1ccc2e70c6b4"
+                },
+                {
+                  "id": "5af682deedc9",
+                  "title": "复制垃圾收集机制详解",
+                  "children": [
+                    {
+                      "id": "4693b0250ecf",
+                      "title": "垃圾收集三色标记算法详解",
+                      "parent": "5af682deedc9",
+                      "children": []
+                    },
+                    {
+                      "id": "65b40977fc20",
+                      "title": "对象漏标解决方案增量更新与原始快照(SATB)详解<br>",
+                      "parent": "5af682deedc9",
+                      "children": []
+                    },
+                    {
+                      "id": "1436850384f8",
+                      "title": "读写内存屏障实现原理剖析(深入到Hotspot底层C++级别解析)",
+                      "children": [],
+                      "parent": "5af682deedc9"
+                    },
+                    {
+                      "id": "bcef793af46d",
+                      "title": "记忆集(Remember Set)与卡表(Cardtable)详解",
+                      "parent": "5af682deedc9",
+                      "children": []
+                    },
+                    {
+                      "id": "6db86fb5cbb4",
+                      "title": "ZGC底层颜色指针详解",
+                      "parent": "5af682deedc9",
+                      "children": []
+                    }
+                  ],
+                  "parent": "1ccc2e70c6b4"
+                }
+              ]
+            },
+            {
+              "id": "2fe071234e46",
+              "title": "十种垃圾收集器详解",
+              "parent": "4d27d192f3ea",
+              "children": [
+                {
+                  "id": "765fb56133f3",
+                  "title": "Serial垃圾收集器详解",
+                  "parent": "2fe071234e46",
+                  "children": []
+                },
+                {
+                  "id": "cf50e96b879e",
+                  "title": "ParNew垃圾收集器详解",
+                  "parent": "2fe071234e46",
+                  "children": []
+                },
+                {
+                  "id": "cac5f2018747",
+                  "title": "Parallel垃圾收集器详解",
+                  "children": [],
+                  "parent": "2fe071234e46"
+                },
+                {
+                  "id": "7f644859d980",
+                  "title": "CMS垃圾收集器详解",
+                  "children": [],
+                  "parent": "2fe071234e46"
+                },
+                {
+                  "id": "4e99516208db",
+                  "title": "G1垃圾收集器详解(深入到Hotspot底层C++级别解析)",
+                  "children": [],
+                  "parent": "2fe071234e46"
+                },
+                {
+                  "id": "57999c73b4fa",
+                  "title": "ZGC垃圾收集器详解",
+                  "children": [],
+                  "parent": "2fe071234e46"
+                },
+                {
+                  "id": "f4e38f6db11a",
+                  "title": "Epsilon与Shenandoah垃圾收集器详解<br>",
+                  "children": [],
+                  "parent": "2fe071234e46"
+                }
+              ]
+            },
+            {
+              "id": "4726a861cf64",
+              "title": "JVM调优工具详解",
+              "children": [
+                {
+                  "id": "2d9cf8961a77",
+                  "title": "JDK自带Jstat、Jinfo、Jmap、Jhat及Jstack调优命令详解",
+                  "children": [],
+                  "parent": "4726a861cf64"
+                },
+                {
+                  "id": "b262ac41493f",
+                  "title": "Jvisualvm、Jconsole调优工具详解",
+                  "children": [],
+                  "parent": "4726a861cf64"
+                },
+                {
+                  "id": "04529db47842",
+                  "title": "阿里巴巴JVM调优工具Arthas详解<br>",
+                  "parent": "4726a861cf64",
+                  "children": []
+                }
+              ],
+              "parent": "4d27d192f3ea"
+            },
+            {
+              "id": "cf9736f39743",
+              "title": "GC日志详细分析",
+              "parent": "4d27d192f3ea",
+              "children": [
+                {
+                  "id": "1a2805cd5d6a",
+                  "title": "GCEasy日志分析工具使用",
+                  "children": [],
+                  "parent": "cf9736f39743"
+                },
+                {
+                  "id": "ed660487896c",
+                  "title": "GCViewer日志分析工具使用",
+                  "children": [],
+                  "parent": "cf9736f39743"
+                }
+              ]
+            },
+            {
+              "id": "898fc6bf07ea",
+              "title": "JVM调优实战",
+              "parent": "4d27d192f3ea",
+              "children": [
+                {
+                  "id": "2534276410c5",
+                  "title": "日均百万交易系统JVM堆栈大小设置策略与调优",
+                  "parent": "898fc6bf07ea",
+                  "children": []
+                },
+                {
+                  "id": "8f37b1a0bc1c",
+                  "title": "亿级流量电商系统堆内年轻代与老年代垃圾回收参数设置与调优",
+                  "parent": "898fc6bf07ea",
+                  "children": []
+                },
+                {
+                  "id": "370732c05a36",
+                  "title": "高并发系统如何基于G1垃圾回收器优化性能",
+                  "parent": "898fc6bf07ea",
+                  "children": []
+                },
+                {
+                  "id": "a3a64ba82256",
+                  "title": "每秒10万并发的秒杀系统为什么会频繁发生GC<br>",
+                  "children": [],
+                  "parent": "898fc6bf07ea"
+                },
+                {
+                  "id": "52e9722bd716",
+                  "title": "电商大促活动时，严重Full GC导致系统直接卡死的优化实战",
+                  "children": [],
+                  "parent": "898fc6bf07ea"
+                },
+                {
+                  "id": "44e454de3ac7",
+                  "title": "线上生产系统OOM监控及定位与解决",
+                  "children": [],
+                  "parent": "898fc6bf07ea"
+                }
+              ]
+            }
+          ],
+          "parent": "b347a72c90476824afb2",
+          "collapsed": false
+        },
+        {
+          "id": "c9e5bff2484c6d0d0c8b",
+          "title": "Mysql性能调优",
+          "style": {
+            "font-weight": "bold"
+          },
+          "children": [
+            {
+              "id": "4fc9a8f28096bb72a49c",
+              "title": "SQL执行原理详解",
+              "children": [
+                {
+                  "id": "ba763a080a44",
+                  "title": "连接器详解<br>",
+                  "parent": "4fc9a8f28096bb72a49c",
+                  "children": []
+                },
+                {
+                  "id": "3ead402be12e",
+                  "title": "分析器详解<br>",
+                  "children": [],
+                  "parent": "4fc9a8f28096bb72a49c"
+                },
+                {
+                  "id": "002be1c00243",
+                  "title": "优化器详解",
+                  "parent": "4fc9a8f28096bb72a49c",
+                  "children": []
+                },
+                {
+                  "id": "3f09446c734b",
+                  "title": "执行器详解",
+                  "children": [],
+                  "parent": "4fc9a8f28096bb72a49c"
+                },
+                {
+                  "id": "05a090161383",
+                  "title": "Innodb的Buffer Pool机制详解",
+                  "parent": "4fc9a8f28096bb72a49c",
+                  "children": []
+                },
+                {
+                  "id": "2a3e2b1b0568",
+                  "title": "Redo重做日志、Undo回滚日志与Binlog详解<br>",
+                  "children": [],
+                  "parent": "4fc9a8f28096bb72a49c"
+                }
+              ],
+              "parent": "c9e5bff2484c6d0d0c8b"
+            },
+            {
+              "id": "3f8172b03cc1",
+              "title": "索引底层剖析",
+              "parent": "c9e5bff2484c6d0d0c8b",
+              "children": [
+                {
+                  "id": "f1c4fc3a5104",
+                  "title": "数据结构角度",
+                  "parent": "3f8172b03cc1",
+                  "children": [
+                    {
+                      "id": "e1a78ac0703c",
+                      "title": "B+树索引",
+                      "parent": "f1c4fc3a5104",
+                      "children": [
+                        {
+                          "id": "f629f05d1435",
+                          "title": "索引查找步骤",
+                          "parent": "e1a78ac0703c",
+                          "children": []
+                        },
+                        {
+                          "id": "0ca16130afe1",
+                          "title": "索引选择",
+                          "children": [],
+                          "parent": "e1a78ac0703c"
+                        },
+                        {
+                          "id": "e023ee8be425",
+                          "title": "联合索引",
+                          "parent": "e1a78ac0703c",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": "6f5e4b77026e",
+                      "title": "Hash索引",
+                      "children": [],
+                      "parent": "f1c4fc3a5104"
+                    },
+                    {
+                      "id": "ff919f0556a1",
+                      "title": "FULL TEXT索引",
+                      "parent": "f1c4fc3a5104",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "127381ff66b4",
+                  "title": "物理存储角度",
+                  "children": [
+                    {
+                      "id": "d9b29f6ffc89",
+                      "title": "聚簇索引",
+                      "children": [],
+                      "parent": "127381ff66b4"
+                    },
+                    {
+                      "id": "0e1e1ebec15f",
+                      "title": "非聚簇索引",
+                      "parent": "127381ff66b4",
+                      "children": []
+                    }
+                  ],
+                  "parent": "3f8172b03cc1"
+                },
+                {
+                  "id": "8b704968806a",
+                  "title": "逻辑角度",
+                  "parent": "3f8172b03cc1",
+                  "children": [
+                    {
+                      "id": "60cc63d8b788",
+                      "title": "主键索引",
+                      "parent": "8b704968806a",
+                      "children": []
+                    },
+                    {
+                      "id": "0f28df2c875e",
+                      "title": "唯一索引",
+                      "children": [],
+                      "parent": "8b704968806a"
+                    },
+                    {
+                      "id": "314124422bc4",
+                      "title": "单列索引",
+                      "parent": "8b704968806a",
+                      "children": []
+                    },
+                    {
+                      "id": "387e49116c5e",
+                      "title": "多列索引",
+                      "parent": "8b704968806a",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "5750c294a1b8",
+                  "title": "索引使用角度",
+                  "parent": "3f8172b03cc1",
+                  "children": [
+                    {
+                      "id": "2a6e3a223b59",
+                      "title": "覆盖索引",
+                      "parent": "5750c294a1b8",
+                      "children": []
+                    },
+                    {
+                      "id": "6c200fd1d706",
+                      "title": "索引下推",
+                      "parent": "5750c294a1b8",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "4b93c985f61936432647",
+              "title": "执行计划与SQL优化",
+              "children": [
+                {
+                  "id": "31a9dba30f3e",
+                  "title": "explain工具深度使用",
+                  "children": [],
+                  "parent": "4b93c985f61936432647"
+                },
+                {
+                  "id": "34d7b26a1638",
+                  "title": "阿里巴巴索引优化最佳实践",
+                  "parent": "4b93c985f61936432647",
+                  "children": []
+                }
+              ],
+              "parent": "c9e5bff2484c6d0d0c8b"
+            },
+            {
+              "id": "fcc4b3769ab2",
+              "title": "Mysql锁机制与事务隔离级别详解",
+              "parent": "c9e5bff2484c6d0d0c8b",
+              "children": [
+                {
+                  "id": "d2f0bdf96d6c",
+                  "title": "Mysql锁",
+                  "parent": "fcc4b3769ab2",
+                  "children": [
+                    {
+                      "id": "cf52349bbbb0",
+                      "title": "性能",
+                      "parent": "d2f0bdf96d6c",
+                      "children": [
+                        {
+                          "id": "7daa5ebb4a89",
+                          "title": "乐观锁",
+                          "parent": "cf52349bbbb0",
+                          "children": []
+                        },
+                        {
+                          "id": "db92ef66ff26",
+                          "title": "悲观锁",
+                          "parent": "cf52349bbbb0",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": "afa54795ba88",
+                      "title": "操作",
+                      "parent": "d2f0bdf96d6c",
+                      "children": [
+                        {
+                          "id": "ecb19bb797c3",
+                          "title": "读锁",
+                          "parent": "afa54795ba88",
+                          "children": []
+                        },
+                        {
+                          "id": "b97bc786d47e",
+                          "title": "写锁",
+                          "parent": "afa54795ba88",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": "2c7ce8584f83",
+                      "title": "粒度",
+                      "parent": "d2f0bdf96d6c",
+                      "children": [
+                        {
+                          "id": "5d17bd7fdd21",
+                          "title": "表锁",
+                          "parent": "2c7ce8584f83",
+                          "children": []
+                        },
+                        {
+                          "id": "68b33c8b9962",
+                          "title": "行锁",
+                          "parent": "2c7ce8584f83",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": "d33581d39554",
+                      "title": "其它",
+                      "children": [
+                        {
+                          "id": "54fa3c908063",
+                          "title": "间隙锁",
+                          "children": [],
+                          "parent": "d33581d39554"
+                        },
+                        {
+                          "id": "dd7199dbb551",
+                          "title": "临键锁",
+                          "children": [],
+                          "parent": "d33581d39554"
+                        }
+                      ],
+                      "parent": "d2f0bdf96d6c"
+                    },
+                    {
+                      "id": "641649e28e67",
+                      "title": "死锁以及优化解决",
+                      "parent": "d2f0bdf96d6c",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "0926a8187fe0",
+                  "title": "事务隔离级别",
+                  "parent": "fcc4b3769ab2",
+                  "children": [
+                    {
+                      "id": "804e1be770c3",
+                      "title": "读未提交",
+                      "parent": "0926a8187fe0",
+                      "children": []
+                    },
+                    {
+                      "id": "947f52627de7",
+                      "title": "读已提交",
+                      "parent": "0926a8187fe0",
+                      "children": []
+                    },
+                    {
+                      "id": "4157f9b31364",
+                      "title": "可重复读",
+                      "parent": "0926a8187fe0",
+                      "children": []
+                    },
+                    {
+                      "id": "627a0da9c1c3",
+                      "title": "串行化",
+                      "parent": "0926a8187fe0",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "3f16b84738b2",
+                  "title": "MVCC多版本并发控制机制详解",
+                  "children": [
+                    {
+                      "id": "27187a5e32d1",
+                      "title": "Undo版本链<br>",
+                      "parent": "3f16b84738b2",
+                      "children": []
+                    },
+                    {
+                      "id": "c314ec938204",
+                      "title": "事务一致性视图ReadView",
+                      "children": [],
+                      "parent": "3f16b84738b2",
+                      "note": ""
+                    },
+                    {
+                      "id": "ce59b8bf2299",
+                      "title": "实现",
+                      "summaries": [],
+                      "children": [
+                        {
+                          "id": "b84cde6dd0f8",
+                          "title": "Read Committed级别实现原理<br>",
+                          "children": [],
+                          "parent": "ce59b8bf2299"
+                        },
+                        {
+                          "id": "39a43350d81b",
+                          "title": "Repeated Read级别实现原理",
+                          "children": [],
+                          "parent": "ce59b8bf2299"
+                        }
+                      ],
+                      "parent": "3f16b84738b2"
+                    }
+                  ],
+                  "parent": "fcc4b3769ab2",
+                  "summaries": [],
+                  "note": "",
+                  "collapsed": false
+                }
+              ]
+            }
+          ],
+          "parent": "b347a72c90476824afb2",
+          "collapsed": false
+        },
+        {
+          "id": "e151ba046722fbaec70a",
+          "title": "Tomcat调优",
+          "style": {
+            "font-weight": "bold"
+          },
+          "children": [
+            {
+              "id": "7037a5726b7da21fb021",
+              "title": "整体认知Tomcat项目架构",
+              "children": [
+                {
+                  "id": "0063b7848b5428b822d8",
+                  "title": "理解Tomat启动流程",
+                  "parent": "7037a5726b7da21fb021",
+                  "children": []
+                },
+                {
+                  "id": "5132e0a7f8cc5924625e",
+                  "title": "理解对Http请求解析与处理流程",
+                  "children": [],
+                  "parent": "7037a5726b7da21fb021"
+                },
+                {
+                  "id": "56ba71720722",
+                  "title": "核心组件认知",
+                  "children": [
+                    {
+                      "id": "c1ba3d78ab6282207372",
+                      "title": "wrapper",
+                      "children": [],
+                      "parent": "56ba71720722"
+                    },
+                    {
+                      "id": "c99140336cb6ac9c1350",
+                      "title": "context",
+                      "parent": "56ba71720722",
+                      "children": []
+                    },
+                    {
+                      "id": "9694fb545edaa8c94fd2",
+                      "title": "host",
+                      "children": [],
+                      "parent": "56ba71720722"
+                    },
+                    {
+                      "id": "0e817e4bd31c80ddd53a",
+                      "title": "engine",
+                      "parent": "56ba71720722",
+                      "children": []
+                    },
+                    {
+                      "id": "91f6a18b8651dd45a993",
+                      "title": "container",
+                      "children": [],
+                      "parent": "56ba71720722"
+                    }
+                  ],
+                  "parent": "7037a5726b7da21fb021"
+                },
+                {
+                  "id": "45ebbc26cd1a",
+                  "title": "Tomcat 8&nbsp;与Tomcat7&nbsp;对比",
+                  "parent": "7037a5726b7da21fb021",
+                  "children": []
+                }
+              ],
+              "parent": "e151ba046722fbaec70a"
+            },
+            {
+              "id": "cb22cf131a14",
+              "title": "生产环境配置",
+              "parent": "e151ba046722fbaec70a",
+              "children": [
+                {
+                  "id": "c6856313c813",
+                  "title": "Tomcat server.xml 配置详解&nbsp;<br>",
+                  "parent": "cb22cf131a14",
+                  "children": []
+                },
+                {
+                  "id": "dcaefde29128",
+                  "title": "Tomcat集群与会话复制方案实现<br>",
+                  "children": [],
+                  "parent": "cb22cf131a14"
+                },
+                {
+                  "id": "3589b55568ab",
+                  "title": "Tomcat虚拟主机配置",
+                  "parent": "cb22cf131a14",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "b12ad7afd99b92bb4c2b",
+              "title": "掌握Tomcat 线程模型背后原理",
+              "children": [
+                {
+                  "id": "c6cb90c16992",
+                  "title": "Tomcat 支持四种线程模型介绍&nbsp;<br>",
+                  "parent": "b12ad7afd99b92bb4c2b",
+                  "children": []
+                },
+                {
+                  "id": "633906545131",
+                  "title": "通过压测演示Nio与&nbsp;Bio模型的区别",
+                  "parent": "b12ad7afd99b92bb4c2b",
+                  "children": []
+                },
+                {
+                  "id": "18de90d248db",
+                  "title": "Tomcat&nbsp;Bio实现源码解读",
+                  "parent": "b12ad7afd99b92bb4c2b",
+                  "children": []
+                },
+                {
+                  "id": "fef2ff50aee9",
+                  "title": "Tomcat Nio&nbsp;实现源码解读",
+                  "parent": "b12ad7afd99b92bb4c2b",
+                  "children": []
+                },
+                {
+                  "id": "d9d9450768d0",
+                  "title": "Tomcat connector 并发参数解读",
+                  "parent": "b12ad7afd99b92bb4c2b",
+                  "children": []
+                }
+              ],
+              "parent": "e151ba046722fbaec70a"
+            }
+          ],
+          "parent": "b347a72c90476824afb2",
+          "collapsed": false
+        },
+        {
+          "id": "e6b54728d3db61dfa0a4",
+          "title": "Nginx调优",
+          "style": {
+            "font-weight": "bold"
+          },
+          "children": [
+            {
+              "id": "b69a369ac81e2b00fb6c",
+              "title": "Nginx快速掌握",
+              "parent": "e6b54728d3db61dfa0a4",
+              "children": [
+                {
+                  "id": "13e3a7be8cbd2a24b7ae",
+                  "title": "核心模块",
+                  "parent": "b69a369ac81e2b00fb6c",
+                  "children": []
+                },
+                {
+                  "id": "2cbff9c2005635879c98",
+                  "title": "标准Http模块",
+                  "parent": "b69a369ac81e2b00fb6c",
+                  "children": []
+                },
+                {
+                  "id": "c61b3024bc66d4783ca6",
+                  "title": "可选Http模块",
+                  "parent": "b69a369ac81e2b00fb6c",
+                  "children": []
+                },
+                {
+                  "id": "08cd0d60bd2d9dcb2bdf",
+                  "title": "第三方模块",
+                  "parent": "b69a369ac81e2b00fb6c",
+                  "children": []
+                },
+                {
+                  "id": "0ff67f69b21251cc489c",
+                  "title": "nginx 事件驱动模型及特性",
+                  "parent": "b69a369ac81e2b00fb6c",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "f9fc7d8272435ab95d8c",
+              "title": "熟练掌握Nginx核心配置",
+              "parent": "e6b54728d3db61dfa0a4",
+              "children": [
+                {
+                  "id": "06fd528d45629d8e1120",
+                  "title": "基本配置",
+                  "parent": "f9fc7d8272435ab95d8c",
+                  "children": []
+                },
+                {
+                  "id": "666b996a0f4f8d4fe79f",
+                  "title": "虚拟主机配置",
+                  "parent": "f9fc7d8272435ab95d8c",
+                  "children": []
+                },
+                {
+                  "id": "35c095b98e5bc1e15f73",
+                  "title": "upstream",
+                  "parent": "f9fc7d8272435ab95d8c",
+                  "children": []
+                },
+                {
+                  "id": "9b16c104696d41bedae3",
+                  "title": "location",
+                  "parent": "f9fc7d8272435ab95d8c",
+                  "children": []
+                },
+                {
+                  "id": "9f87a508ed0d158f6965",
+                  "title": "静态目录配置",
+                  "parent": "f9fc7d8272435ab95d8c",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "c9cae40732ea7aed5713",
+              "title": "掌握Nginx负载算法配置",
+              "parent": "e6b54728d3db61dfa0a4",
+              "children": [
+                {
+                  "id": "c12b1b2a2832de95f7d2",
+                  "title": "轮循+权重",
+                  "parent": "c9cae40732ea7aed5713",
+                  "children": []
+                },
+                {
+                  "id": "67d940acc084a079ce4f",
+                  "title": "ip hash",
+                  "parent": "c9cae40732ea7aed5713",
+                  "children": []
+                },
+                {
+                  "id": "4618560385b2feb74439",
+                  "title": "url hash",
+                  "parent": "c9cae40732ea7aed5713",
+                  "children": []
+                },
+                {
+                  "id": "a919022c4a3d36e5715f",
+                  "title": "least_conn",
+                  "parent": "c9cae40732ea7aed5713",
+                  "children": []
+                },
+                {
+                  "id": "86346421c3de6d5ee6f0",
+                  "title": "least_time",
+                  "parent": "c9cae40732ea7aed5713",
+                  "children": []
+                }
+              ]
+            }
+          ],
+          "parent": "b347a72c90476824afb2",
+          "collapsed": false
+        }
+      ],
+      "parent": "root",
+      "collapsed": true
+    },
+    {
+      "id": "5b3fd541d9cc",
+      "title": "并发编程专题<br>",
+      "lineStyle": {
+        "randomLineColor": "rgb(0, 94, 170)"
+      },
+      "parent": "root",
+      "children": [
+        {
+          "id": "d434055774f6",
+          "title": "操作系统内核原理<br>",
+          "style": {
+            "font-weight": "bold"
+          },
+          "children": [
+            {
+              "id": "2b039f5b3597",
+              "title": "进程管理详解",
+              "children": [],
+              "parent": "d434055774f6"
+            },
+            {
+              "id": "a09e53352bf8",
+              "title": "内存管理详解",
+              "children": [],
+              "parent": "d434055774f6"
+            },
+            {
+              "id": "fed182bcb1fb",
+              "title": "文件系统详解",
+              "children": [],
+              "parent": "d434055774f6"
+            },
+            {
+              "id": "eb32710cbd02",
+              "title": "IO输入输出系统详解",
+              "children": [],
+              "parent": "d434055774f6"
+            },
+            {
+              "id": "a1748df51eee",
+              "title": "进程间通信机制详解",
+              "children": [],
+              "parent": "d434055774f6"
+            },
+            {
+              "id": "052f93e7ea60",
+              "title": "网络通信原理剖析",
+              "children": [],
+              "parent": "d434055774f6"
+            }
+          ],
+          "parent": "5b3fd541d9cc"
+        },
+        {
+          "id": "20949d93fa0d",
+          "title": "JMM内存模型<br>",
+          "style": {
+            "font-weight": "bold"
+          },
+          "children": [
+            {
+              "id": "079e3644042e",
+              "title": "现代计算机模型基础理论知识",
+              "children": [],
+              "parent": "20949d93fa0d"
+            },
+            {
+              "id": "ffaf4d144ba3",
+              "title": "什么是线程 深入理解Java线程",
+              "parent": "20949d93fa0d",
+              "children": []
+            },
+            {
+              "id": "433141342263",
+              "title": "JMM  Volatile 缓存一致性协议",
+              "parent": "20949d93fa0d",
+              "children": []
+            },
+            {
+              "id": "d30f6ab5f8d3",
+              "title": "指令重排、可见性、原子性、顺序一致性、happens-beofre详解 as-if-serial",
+              "children": [],
+              "parent": "20949d93fa0d"
+            }
+          ],
+          "parent": "5b3fd541d9cc"
+        },
+        {
+          "id": "c8d8393b0306",
+          "title": "并发同步处理",
+          "style": {
+            "font-weight": "bold"
+          },
+          "children": [
+            {
+              "id": "6e7ee0371ece",
+              "title": "Synchronized内置锁实现原理",
+              "children": [],
+              "parent": "c8d8393b0306"
+            },
+            {
+              "id": "1567eb85afda",
+              "title": "Synchronized锁的膨胀升级过程分析",
+              "parent": "c8d8393b0306",
+              "children": []
+            },
+            {
+              "id": "35b9748cadcc",
+              "title": "AbstractQueuedSynchronizer（AQS）详解",
+              "parent": "c8d8393b0306",
+              "children": []
+            },
+            {
+              "id": "cd65632983cd",
+              "title": "乐观锁、悲观锁、重入锁、公平锁、非公平锁及锁的粒度详解",
+              "children": [],
+              "parent": "c8d8393b0306"
+            },
+            {
+              "id": "bb0848cd5360",
+              "title": "ReentrantLock/ReentrantReadWriteLock、ReadWriteLock详解",
+              "children": [],
+              "parent": "c8d8393b0306"
+            },
+            {
+              "id": "6761c6bdd25e",
+              "title": "Condition 条件队列 同步队列",
+              "children": [],
+              "parent": "c8d8393b0306"
+            }
+          ],
+          "parent": "5b3fd541d9cc",
+          "collapsed": false
+        },
+        {
+          "id": "ec3e197e989d",
+          "title": "并发包之tools限制",
+          "style": {
+            "font-weight": "bold"
+          },
+          "children": [
+            {
+              "id": "a1a2f4c985a1",
+              "title": "<p>CountDownLatch详解</p>",
+              "parent": "ec3e197e989d",
+              "children": []
+            },
+            {
+              "id": "f6893672cebc",
+              "title": "Semaphore详解",
+              "parent": "ec3e197e989d",
+              "children": []
+            },
+            {
+              "id": "9f4a208d889f",
+              "title": "CyclicBarrier详解",
+              "children": [],
+              "parent": "ec3e197e989d"
+            }
+          ],
+          "parent": "5b3fd541d9cc",
+          "collapsed": false
+        },
+        {
+          "id": "590b215a4cad",
+          "title": "并发包之atomic原子操作",
+          "style": {
+            "font-weight": "bold"
+          },
+          "children": [
+            {
+              "id": "92f6f41f9efd",
+              "title": "atomic类&nbsp;ThreadLocal ABA JMM",
+              "parent": "590b215a4cad",
+              "children": []
+            },
+            {
+              "id": "80111b654a79",
+              "title": "<font face=\"Helvetica\">cas算法乐观锁</font>",
+              "children": [],
+              "parent": "590b215a4cad"
+            },
+            {
+              "id": "3955eb5a98ad",
+              "title": "Unsafe魔法类详解",
+              "children": [],
+              "parent": "590b215a4cad"
+            }
+          ],
+          "parent": "5b3fd541d9cc",
+          "collapsed": false
+        },
+        {
+          "id": "0d6802d4bf94",
+          "title": "阻塞队列BlockingQueue详解",
+          "style": {
+            "font-weight": "bold"
+          },
+          "children": [
+            {
+              "id": "d46e00933a82",
+              "title": "ArrayBlockingQueue 数组有界队列",
+              "children": [],
+              "parent": "0d6802d4bf94"
+            },
+            {
+              "id": "89e45b72917c",
+              "title": "ConcurrentLinkedQueue 链表无界队列",
+              "children": [],
+              "parent": "0d6802d4bf94"
+            },
+            {
+              "id": "e1b970715edb",
+              "title": "PriorityBlockingQueue 优先级排序无界队列",
+              "children": [],
+              "parent": "0d6802d4bf94"
+            },
+            {
+              "id": "5121e27a650b",
+              "title": "DelayQueue 延时无界队列",
+              "children": [],
+              "parent": "0d6802d4bf94"
+            }
+          ],
+          "parent": "5b3fd541d9cc"
+        },
+        {
+          "id": "7c7755f04cba",
+          "title": "并发Map、List与Set详解  ",
+          "style": {
+            "font-weight": "bold"
+          },
+          "parent": "5b3fd541d9cc",
+          "children": [
+            {
+              "id": "8deb825e1e2b",
+              "title": "HashMap与ConcurrentHashMap源码剖析",
+              "children": [],
+              "parent": "7c7755f04cba"
+            },
+            {
+              "id": "344764742ac9",
+              "title": "ArrayList、LinkedList与CopyOnWriteArrayList详解",
+              "parent": "7c7755f04cba",
+              "children": []
+            },
+            {
+              "id": "bef69036b8fe",
+              "title": "Set与CopyOnWriteArraySet详解",
+              "parent": "7c7755f04cba",
+              "children": []
+            }
+          ],
+          "collapsed": false
+        },
+        {
+          "id": "83ac2d5a88f8",
+          "title": "Executor线程池详解及核心源码剖析",
+          "style": {
+            "font-weight": "bold"
+          },
+          "children": [
+            {
+              "id": "8e2b8b56b333",
+              "title": "Futrue模式详解",
+              "children": [],
+              "parent": "83ac2d5a88f8",
+              "collapsed": false
+            },
+            {
+              "id": "7d960566150e",
+              "title": "ThreadPoolExecutor详解",
+              "children": [],
+              "parent": "83ac2d5a88f8"
+            },
+            {
+              "id": "2de5c166cc78",
+              "title": "ScheduledExecutorService详解",
+              "children": [],
+              "parent": "83ac2d5a88f8"
+            }
+          ],
+          "parent": "5b3fd541d9cc",
+          "collapsed": false
+        },
+        {
+          "id": "9bbb24caa23e",
+          "title": "ForkJoin框架详解",
+          "style": {
+            "font-weight": "bold"
+          },
+          "parent": "5b3fd541d9cc",
+          "children": [
+            {
+              "id": "c8ddfa9688d2",
+              "title": "ForkJoin框架介绍",
+              "parent": "9bbb24caa23e",
+              "children": []
+            },
+            {
+              "id": "d6b61afccb4b",
+              "title": "ForkJoin案列讲解",
+              "parent": "9bbb24caa23e",
+              "children": []
+            },
+            {
+              "id": "6651ba499800",
+              "title": "ForkJoin原理解析",
+              "children": [],
+              "parent": "9bbb24caa23e"
+            }
+          ],
+          "collapsed": false
+        },
+        {
+          "id": "d3cb7e2f076d",
+          "title": "无锁并发框架Disruptor实战",
+          "style": {
+            "font-weight": "bold"
+          },
+          "parent": "5b3fd541d9cc",
+          "children": []
+        }
+      ],
+      "collapsed": true
+    },
+    {
+      "id": "0d5efecc8e0fdbe300a6",
+      "title": "框架源码专题",
+      "style": {
+        "border-color": "#31a8e0"
+      },
+      "lineStyle": {
+        "randomLineColor": "#e85d4e"
+      },
+      "parent": "root",
+      "children": [
+        {
+          "id": "0d22176b792a468b08ce",
+          "title": "应用框架Spring",
+          "style": {
+            "font-weight": "bold"
+          },
+          "children": [
+            {
+              "id": "c5db57ecb179084d63ef",
+              "title": "Spring IOC源码剖析",
+              "children": [
+                {
+                  "id": "57e0c8460ee7fa98bb81",
+                  "title": "整体认知spring 体系结构",
+                  "children": [],
+                  "parent": "c5db57ecb179084d63ef"
+                },
+                {
+                  "id": "efec7f69ab50179f9589",
+                  "title": "理解Spring IOC 容器设计原理",
+                  "children": [],
+                  "parent": "c5db57ecb179084d63ef"
+                },
+                {
+                  "id": "17a0cd98bdc3d65aa516",
+                  "title": "掌握Bean生命周期",
+                  "children": [
+                    {
+                      "id": "a14629a42421",
+                      "title": "初始化InitializingBean/@PostConstruct",
+                      "parent": "17a0cd98bdc3d65aa516",
+                      "children": []
+                    },
+                    {
+                      "id": "95c5a985de9c",
+                      "title": "Bean的后置处理器BeanPostProcessor源码分析",
+                      "parent": "17a0cd98bdc3d65aa516",
+                      "children": []
+                    },
+                    {
+                      "id": "fd07307cef23",
+                      "title": "销毁DisposableBean/@PreDestroy",
+                      "parent": "17a0cd98bdc3d65aa516",
+                      "children": []
+                    }
+                  ],
+                  "parent": "c5db57ecb179084d63ef"
+                },
+                {
+                  "id": "e94d33baa1952bdaccdb",
+                  "title": "Spring Context 装载过程源码分析",
+                  "children": [
+                    {
+                      "id": "898fd016af6c",
+                      "title": "BeanFactoryPostProcessor源码分析",
+                      "parent": "e94d33baa1952bdaccdb",
+                      "children": []
+                    },
+                    {
+                      "id": "0df42f28a0f9",
+                      "title": "BeanDefinitionRegistryPostProcessor源码分析",
+                      "parent": "e94d33baa1952bdaccdb",
+                      "children": []
+                    }
+                  ],
+                  "parent": "c5db57ecb179084d63ef"
+                },
+                {
+                  "id": "c8cd7d5e1854",
+                  "title": "Spring IOC 循环依赖问题源码深度剖析",
+                  "children": [],
+                  "parent": "c5db57ecb179084d63ef"
+                },
+                {
+                  "id": "df0e742ce747",
+                  "title": "Factorybean与Beanfactory区别",
+                  "parent": "c5db57ecb179084d63ef",
+                  "children": []
+                }
+              ],
+              "parent": "0d22176b792a468b08ce",
+              "collapsed": false
+            },
+            {
+              "id": "7fa10c9785c4",
+              "title": "Spring Aop源码剖析",
+              "children": [
+                {
+                  "id": "ad62c9128976",
+                  "title": "掌握Spring AOP 编程概念",
+                  "children": [],
+                  "parent": "7fa10c9785c4"
+                },
+                {
+                  "id": "e493600a3d0e",
+                  "title": "AOP注解编程",
+                  "parent": "7fa10c9785c4",
+                  "children": [
+                    {
+                      "id": "8b4ebaa33fcb",
+                      "title": "@EnableAspectJAutoProxy",
+                      "parent": "e493600a3d0e",
+                      "children": []
+                    },
+                    {
+                      "id": "af1fd9940e8c",
+                      "title": "@Before/@After/@AfterReturning/@AfterThrowing/@Around",
+                      "parent": "e493600a3d0e",
+                      "children": []
+                    },
+                    {
+                      "id": "06feae20ef87",
+                      "title": "@Pointcut",
+                      "parent": "e493600a3d0e",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "957633b0fdf4",
+                  "title": "基于Spring AOP 实现应用插件机制",
+                  "children": [],
+                  "parent": "7fa10c9785c4"
+                },
+                {
+                  "id": "41f8bd117cda",
+                  "title": "Spring&nbsp; AOP源码分析",
+                  "children": [
+                    {
+                      "id": "ec837885cacd",
+                      "title": "ProxyFactory源码解析",
+                      "parent": "41f8bd117cda",
+                      "children": []
+                    },
+                    {
+                      "id": "afca172e9252",
+                      "title": "AOP代理源码解析",
+                      "parent": "41f8bd117cda",
+                      "children": []
+                    },
+                    {
+                      "id": "ffbe0e1a0fd2",
+                      "title": "拦截器链与织入源码解析",
+                      "parent": "41f8bd117cda",
+                      "children": []
+                    }
+                  ],
+                  "parent": "7fa10c9785c4"
+                },
+                {
+                  "id": "e5bfbe8554bb",
+                  "title": "Spring事务控制与底层源码分析",
+                  "parent": "7fa10c9785c4",
+                  "children": [
+                    {
+                      "id": "5b551b79aed8",
+                      "title": "@EnableTransactionManagement源码剖析",
+                      "parent": "e5bfbe8554bb",
+                      "children": []
+                    },
+                    {
+                      "id": "174583e697ff",
+                      "title": "@Transactional源码剖析",
+                      "parent": "e5bfbe8554bb",
+                      "children": []
+                    }
+                  ]
+                }
+              ],
+              "parent": "0d22176b792a468b08ce",
+              "collapsed": false
+            },
+            {
+              "id": "c73c8c45a59b3a1344e4",
+              "title": "Spring MVC源码剖析",
+              "parent": "0d22176b792a468b08ce",
+              "children": [
+                {
+                  "id": "06fde88711a28d2f64fb",
+                  "title": "理解MVC设计思想",
+                  "parent": "c73c8c45a59b3a1344e4",
+                  "children": []
+                },
+                {
+                  "id": "a231c166bf9b",
+                  "title": "从DispatchServlet 出发讲述MVC体系结构组成",
+                  "parent": "c73c8c45a59b3a1344e4",
+                  "children": []
+                },
+                {
+                  "id": "295ae0c3e1f1",
+                  "title": "基于示例展开DispatchServlet  核心类结构",
+                  "parent": "c73c8c45a59b3a1344e4",
+                  "children": []
+                },
+                {
+                  "id": "ec0ee1e228be",
+                  "title": "MVC初始化及执行流程源码深度解析",
+                  "parent": "c73c8c45a59b3a1344e4",
+                  "children": []
+                },
+                {
+                  "id": "a36bc207d755",
+                  "title": "RequestMaping源码实现解析<br>",
+                  "parent": "c73c8c45a59b3a1344e4",
+                  "children": []
+                },
+                {
+                  "id": "9684da9d6e923faa157f",
+                  "title": "熟悉MVC组件体系",
+                  "children": [
+                    {
+                      "id": "215810c7d6f039e234fd",
+                      "title": "映射器原理实现",
+                      "children": [],
+                      "parent": "9684da9d6e923faa157f"
+                    },
+                    {
+                      "id": "7a962057d504f316d8bd",
+                      "title": "执行适配器原理实现",
+                      "children": [],
+                      "parent": "9684da9d6e923faa157f"
+                    },
+                    {
+                      "id": "d9cb6f3df166aca8bcaa",
+                      "title": "视图解析器原理实现",
+                      "children": [],
+                      "parent": "9684da9d6e923faa157f"
+                    },
+                    {
+                      "id": "f84f13a4902f6fe9aacd",
+                      "title": "异常捕捉器原理实现",
+                      "children": [],
+                      "parent": "9684da9d6e923faa157f"
+                    }
+                  ],
+                  "parent": "c73c8c45a59b3a1344e4",
+                  "collapsed": false
+                }
+              ],
+              "collapsed": false
+            },
+            {
+              "id": "c89eb98c4951",
+              "title": "Spring注解式开发",
+              "parent": "0d22176b792a468b08ce",
+              "children": [
+                {
+                  "id": "243b280dd990",
+                  "title": "@Bean/@ComponentScan/@Configuration/@Conditional",
+                  "parent": "c89eb98c4951",
+                  "children": []
+                },
+                {
+                  "id": "1d995cdcb7cc",
+                  "title": "@Component/@Service@/Controller/@Repository",
+                  "children": [],
+                  "parent": "c89eb98c4951"
+                },
+                {
+                  "id": "72c8a332446d",
+                  "title": "@Lazy/@Scope/@Import/@Value/@Profile",
+                  "parent": "c89eb98c4951",
+                  "children": []
+                },
+                {
+                  "id": "04305ad51856",
+                  "title": "@Autowired/@Resources/@Inject",
+                  "children": [],
+                  "parent": "c89eb98c4951"
+                }
+              ],
+              "collapsed": false
+            },
+            {
+              "id": "df5b4c2b9ab6",
+              "title": "Spring 5新特性",
+              "children": [
+                {
+                  "id": "fad75b4d088e",
+                  "title": "新特性详解",
+                  "parent": "df5b4c2b9ab6",
+                  "children": []
+                },
+                {
+                  "id": "3da501fefd9b",
+                  "title": "响应式编程模型",
+                  "parent": "df5b4c2b9ab6",
+                  "children": []
+                },
+                {
+                  "id": "c7d91cd00de0",
+                  "title": "函数式风格的ApplicationContext",
+                  "parent": "df5b4c2b9ab6",
+                  "children": []
+                },
+                {
+                  "id": "bb278581bd84",
+                  "title": "Kotlin表达式的支持",
+                  "parent": "df5b4c2b9ab6",
+                  "children": []
+                },
+                {
+                  "id": "d62baa6087c2",
+                  "title": "SpringWebFlux模块讲解",
+                  "parent": "df5b4c2b9ab6",
+                  "children": []
+                }
+              ],
+              "parent": "0d22176b792a468b08ce",
+              "collapsed": false
+            },
+            {
+              "id": "fdc484ebc361",
+              "title": "Spring Security原理与源码剖析<br>",
+              "children": [
+                {
+                  "id": "9e6b0f4cc782",
+                  "title": "快速入门与高级应用",
+                  "parent": "fdc484ebc361",
+                  "children": []
+                },
+                {
+                  "id": "f6ec8dad6bef",
+                  "title": "核心安全过滤器源码剖析",
+                  "parent": "fdc484ebc361",
+                  "children": []
+                },
+                {
+                  "id": "1702d105b9aa",
+                  "title": "会话管理源码剖析<br>",
+                  "parent": "fdc484ebc361",
+                  "children": []
+                },
+                {
+                  "id": "60b9ed4c290f",
+                  "title": "命名空间配置源码剖析<br>",
+                  "parent": "fdc484ebc361",
+                  "children": []
+                },
+                {
+                  "id": "96a4073dad53",
+                  "title": "授权体系结构源码剖析",
+                  "parent": "fdc484ebc361",
+                  "children": []
+                },
+                {
+                  "id": "1e8f02d6b3bb",
+                  "title": "Outh1.0与Outh2.0协议详解",
+                  "children": [],
+                  "parent": "fdc484ebc361"
+                }
+              ],
+              "parent": "0d22176b792a468b08ce"
+            },
+            {
+              "id": "75cd735d482e",
+              "title": "Spring Webflux详解<br>",
+              "children": [
+                {
+                  "id": "b34e45924d31",
+                  "title": "Webflux快速入门",
+                  "children": [],
+                  "parent": "75cd735d482e"
+                },
+                {
+                  "id": "6f8108c2c0d8",
+                  "title": "响应式编程实战",
+                  "children": [],
+                  "parent": "75cd735d482e"
+                },
+                {
+                  "id": "748c133a4e73",
+                  "title": "JDK响应式流编程实战",
+                  "children": [],
+                  "parent": "75cd735d482e"
+                },
+                {
+                  "id": "e70eea1309b5",
+                  "title": "Reactive Stream 响应式流详解",
+                  "parent": "75cd735d482e",
+                  "children": []
+                },
+                {
+                  "id": "97eb277c52c3",
+                  "title": "Webflux服务端开发详解",
+                  "children": [],
+                  "parent": "75cd735d482e"
+                },
+                {
+                  "id": "4ae0c2238669",
+                  "title": "Webflux客户端声明式rest client框架开发讲解",
+                  "parent": "75cd735d482e",
+                  "children": []
+                }
+              ],
+              "parent": "0d22176b792a468b08ce"
+            }
+          ],
+          "parent": "0d5efecc8e0fdbe300a6",
+          "collapsed": false
+        },
+        {
+          "id": "b177c02c7de92d11788d",
+          "title": "ORM框架MyBatis",
+          "style": {
+            "font-weight": "bold"
+          },
+          "children": [
+            {
+              "id": "382c62597cc72d82fed2",
+              "title": "MyBatis快速掌握",
+              "children": [
+                {
+                  "id": "2bf6e6a48e6c378cd01e",
+                  "title": "MyBatis、Hibernate及传统JDBC对比",
+                  "children": [],
+                  "parent": "382c62597cc72d82fed2"
+                },
+                {
+                  "id": "c419f3aae316",
+                  "title": "Mybatis全局参数详解",
+                  "parent": "382c62597cc72d82fed2",
+                  "children": []
+                },
+                {
+                  "id": "3954033dbaa4",
+                  "title": "详解configuration 、properties、 settings、 typeAliases、 mapper",
+                  "children": [],
+                  "parent": "382c62597cc72d82fed2"
+                },
+                {
+                  "id": "8b52ab00f84e",
+                  "title": "掌握xml和annotations和Criteria差异",
+                  "children": [],
+                  "parent": "382c62597cc72d82fed2"
+                }
+              ],
+              "parent": "b177c02c7de92d11788d"
+            },
+            {
+              "id": "a55b2c91aea9f8a2fb7f",
+              "title": "Mybatis 源码分析",
+              "children": [
+                {
+                  "id": "07fd530829e315de0d5e",
+                  "title": "整体认识mybatis源码结构",
+                  "children": [],
+                  "parent": "a55b2c91aea9f8a2fb7f"
+                },
+                {
+                  "id": "7839bd7da210",
+                  "title": "Mybatis核心应用配置与原理解析",
+                  "children": [],
+                  "parent": "a55b2c91aea9f8a2fb7f"
+                },
+                {
+                  "id": "f4dbe30320d1e787b8d5",
+                  "title": "Spring与MyBatis集成源码剖析",
+                  "children": [],
+                  "parent": "a55b2c91aea9f8a2fb7f"
+                },
+                {
+                  "id": "953e183e32ba",
+                  "title": "Configuration、Mapper、SqlSession、Executor源码解析",
+                  "children": [],
+                  "parent": "a55b2c91aea9f8a2fb7f"
+                }
+              ],
+              "parent": "b177c02c7de92d11788d"
+            },
+            {
+              "id": "d4967f19472303223338",
+              "title": "Mybatis徒手实现",
+              "children": [
+                {
+                  "id": "47ffc9fb6c0c9a421669",
+                  "title": "熟悉MyBatis内部运行机制",
+                  "children": [],
+                  "parent": "d4967f19472303223338"
+                },
+                {
+                  "id": "6035d6c28c6954fb5ffc",
+                  "title": "熟悉MyBatis初始化过程",
+                  "children": [],
+                  "parent": "d4967f19472303223338"
+                },
+                {
+                  "id": "052e0c21a680ad32645b",
+                  "title": "源码debug一行行详细讲解",
+                  "children": [],
+                  "parent": "d4967f19472303223338"
+                },
+                {
+                  "id": "f5ae9449424b266e669c",
+                  "title": "MyBatis二级缓存应用",
+                  "children": [],
+                  "parent": "d4967f19472303223338"
+                },
+                {
+                  "id": "87b42007565a",
+                  "title": "手写实现一套mybatis框架",
+                  "children": [],
+                  "parent": "d4967f19472303223338"
+                }
+              ],
+              "parent": "b177c02c7de92d11788d"
+            }
+          ],
+          "parent": "0d5efecc8e0fdbe300a6",
+          "collapsed": false
+        },
+        {
+          "id": "ab06a04dbcdc",
+          "title": "学习源码中的优秀设计模式",
+          "style": {
+            "font-weight": "bold"
+          },
+          "parent": "0d5efecc8e0fdbe300a6",
+          "children": [
+            {
+              "id": "767c2ddab8d7",
+              "title": "设计原则",
+              "parent": "ab06a04dbcdc",
+              "children": [
+                {
+                  "id": "79505eabb959",
+                  "title": "开闭、单一职责及里氏替换原则",
+                  "parent": "767c2ddab8d7",
+                  "children": []
+                },
+                {
+                  "id": "242cf9fea47a",
+                  "title": "依赖倒置、接口隔离、合成复用原则",
+                  "parent": "767c2ddab8d7",
+                  "children": []
+                },
+                {
+                  "id": "4181c5cb77fd",
+                  "title": "迪米特法则",
+                  "parent": "767c2ddab8d7",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "e389727a0da6",
+              "title": "创建型模式<br>",
+              "parent": "ab06a04dbcdc",
+              "children": [
+                {
+                  "id": "77dae20bc24f",
+                  "title": "工厂方法、抽象工厂及单例模式<br>",
+                  "parent": "e389727a0da6",
+                  "children": []
+                },
+                {
+                  "id": "3597b42cd951",
+                  "title": "建造者与原型模式",
+                  "parent": "e389727a0da6",
+                  "children": []
+                }
+              ],
+              "collapsed": false
+            },
+            {
+              "id": "26f2a2655621",
+              "title": "结构型模式",
+              "children": [
+                {
+                  "id": "862ea47f1893",
+                  "title": "适配器、装饰器及代理模式",
+                  "children": [],
+                  "parent": "26f2a2655621"
+                },
+                {
+                  "id": "8efed2471b45",
+                  "title": "外观、桥接、组合及享元模式",
+                  "children": [],
+                  "parent": "26f2a2655621"
+                }
+              ],
+              "parent": "ab06a04dbcdc",
+              "collapsed": false
+            },
+            {
+              "id": "49b21e8fcff0",
+              "title": "行为型模式",
+              "parent": "ab06a04dbcdc",
+              "children": [
+                {
+                  "id": "263869f576f3",
+                  "title": "模板方法、策略及观察者模式<br>",
+                  "parent": "49b21e8fcff0",
+                  "children": []
+                },
+                {
+                  "id": "61c059a3fd83",
+                  "title": "迭代器、责任链、命令及中介者模式<br>",
+                  "parent": "49b21e8fcff0",
+                  "children": []
+                },
+                {
+                  "id": "9a81115d26cf",
+                  "title": "备忘录、状态、访问者及解释器模式",
+                  "parent": "49b21e8fcff0",
+                  "children": []
+                }
+              ],
+              "collapsed": false
+            },
+            {
+              "id": "25a6f00dcdb9",
+              "title": "设计模式对比及应用场景<br>",
+              "parent": "ab06a04dbcdc",
+              "children": [
+                {
+                  "id": "b023617b32d9",
+                  "title": "线程池的单例模式实现",
+                  "parent": "25a6f00dcdb9",
+                  "children": []
+                },
+                {
+                  "id": "65b06e301d0d",
+                  "title": "电商优惠促销策略模式实现",
+                  "parent": "25a6f00dcdb9",
+                  "children": []
+                },
+                {
+                  "id": "dc1bea97faaf",
+                  "title": "AOP底层代理模式实现",
+                  "parent": "25a6f00dcdb9",
+                  "children": []
+                },
+                {
+                  "id": "3e566b8d1feb",
+                  "title": "RedisTemplate、JdbcTemplate模板模式实现",
+                  "parent": "25a6f00dcdb9",
+                  "children": []
+                },
+                {
+                  "id": "a45dd9bef8ee",
+                  "title": "Zookeeper监听器观察者模式实现",
+                  "parent": "25a6f00dcdb9",
+                  "children": []
+                },
+                {
+                  "id": "e12906ac8433",
+                  "title": "微服务网关鉴权责任链模式实现",
+                  "parent": "25a6f00dcdb9",
+                  "children": []
+                },
+                {
+                  "id": "3dfda768c351",
+                  "title": "多级缓存架构装饰器模式实现",
+                  "parent": "25a6f00dcdb9",
+                  "children": []
+                }
+              ]
+            }
+          ],
+          "collapsed": false
+        }
+      ],
+      "collapsed": true
+    },
+    {
+      "id": "cc1d591359b0",
+      "title": "分布式框架专题<br>",
+      "lineStyle": {
+        "randomLineColor": "rgb(232, 124, 37)"
+      },
+      "children": [
+        {
+          "id": "021135489bc3",
+          "title": "分布式消息中间件",
+          "style": {
+            "font-weight": "bold"
+          },
+          "children": [
+            {
+              "id": "07990a8ddb4d",
+              "title": "Rabbitmq",
+              "style": {
+                "font-weight": "bold"
+              },
+              "parent": "021135489bc3",
+              "children": [
+                {
+                  "id": "d39c73468e7d",
+                  "title": "Rabbitmq入门与高可用集群部署实战",
+                  "parent": "07990a8ddb4d",
+                  "children": []
+                },
+                {
+                  "id": "d925115f9e59",
+                  "title": "详解Rabbitmq消息分发与主题消息分布功能",
+                  "parent": "07990a8ddb4d",
+                  "children": []
+                },
+                {
+                  "id": "13425bb64585",
+                  "title": "Rabbitmq消息路由机制详解",
+                  "parent": "07990a8ddb4d",
+                  "children": []
+                },
+                {
+                  "id": "af1f20ab8fad",
+                  "title": "Rabbitmq消息确认机制详解",
+                  "parent": "07990a8ddb4d",
+                  "children": []
+                },
+                {
+                  "id": "36386e69e3d2",
+                  "title": "Rabbitmq Web监控平台使用",
+                  "parent": "07990a8ddb4d",
+                  "children": []
+                },
+                {
+                  "id": "f43baa8a335b",
+                  "title": "Rabbitmq镜像队列详解",
+                  "parent": "07990a8ddb4d",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "7ecbcdd2f7f6",
+              "title": "RocketMq",
+              "style": {
+                "font-weight": "bold"
+              },
+              "parent": "021135489bc3",
+              "children": [
+                {
+                  "id": "efd5dd4d05f4",
+                  "title": "解密RocketMq集群部署与快速入门",
+                  "parent": "7ecbcdd2f7f6",
+                  "children": []
+                },
+                {
+                  "id": "ed5aab9c083d",
+                  "title": "深入分析RocketMq模块划分与集群原理讲解",
+                  "parent": "7ecbcdd2f7f6",
+                  "children": []
+                },
+                {
+                  "id": "8699e07bcf82",
+                  "title": "详解普通消息、顺序消息、事务消息、定时消息",
+                  "parent": "7ecbcdd2f7f6",
+                  "children": []
+                },
+                {
+                  "id": "ce69e57eb815",
+                  "title": "深入RocketMq Broker、Consumer、Producer源码剖析",
+                  "parent": "7ecbcdd2f7f6",
+                  "children": []
+                },
+                {
+                  "id": "25da1d091b26",
+                  "title": "详解RocketMq监控与运维",
+                  "parent": "7ecbcdd2f7f6",
+                  "children": []
+                },
+                {
+                  "id": "12be0c02462c",
+                  "title": "企业实战RocketMq消息中间件API架构开发",
+                  "parent": "7ecbcdd2f7f6",
+                  "children": []
+                }
+              ],
+              "collapsed": false
+            },
+            {
+              "id": "3197494d196a",
+              "title": "Kafka",
+              "style": {
+                "font-weight": "bold"
+              },
+              "children": [
+                {
+                  "id": "b44d44552f61",
+                  "title": "Kafka发展介绍与对比",
+                  "children": [],
+                  "parent": "3197494d196a"
+                },
+                {
+                  "id": "6dbfffb78459",
+                  "title": "Kafka集群搭建与使用",
+                  "children": [],
+                  "parent": "3197494d196a"
+                },
+                {
+                  "id": "78d729503cca",
+                  "title": "Kafka副本机制与选举原理详解",
+                  "parent": "3197494d196a",
+                  "children": []
+                },
+                {
+                  "id": "951f91bbdaf2",
+                  "title": "Kafka架构设计原理分析<br>",
+                  "parent": "3197494d196a",
+                  "children": []
+                },
+                {
+                  "id": "9136d1359438",
+                  "title": "基于Kafka的大规模日志系统实现原理分析",
+                  "parent": "3197494d196a",
+                  "children": []
+                },
+                {
+                  "id": "bf061ef78932",
+                  "title": "亿级流量生产系统Kafka性能优化最佳实践",
+                  "children": [],
+                  "parent": "3197494d196a"
+                }
+              ],
+              "parent": "021135489bc3"
+            }
+          ],
+          "parent": "cc1d591359b0"
+        },
+        {
+          "id": "c20ddfc65bcd",
+          "title": "分布式储存中间件",
+          "style": {
+            "font-weight": "bold"
+          },
+          "children": [
+            {
+              "id": "5213a613038c",
+              "title": "Redis",
+              "style": {
+                "font-weight": "bold"
+              },
+              "children": [
+                {
+                  "id": "2600befc6538",
+                  "title": "Redis核心数据结构剖析",
+                  "children": [],
+                  "parent": "5213a613038c"
+                },
+                {
+                  "id": "9f90504b277a",
+                  "title": "Redis在微博，微信及电商场景典型应用实践",
+                  "children": [],
+                  "parent": "5213a613038c"
+                },
+                {
+                  "id": "017b168a81db",
+                  "title": "Redis持久化机制与安全机制详解",
+                  "children": [],
+                  "parent": "5213a613038c"
+                },
+                {
+                  "id": "b01994f0e39e",
+                  "title": "Redis主从及哨兵架构详解",
+                  "children": [],
+                  "parent": "5213a613038c"
+                },
+                {
+                  "id": "91fc3300b549",
+                  "title": "Redis Cluster集群架构实战及原理剖析",
+                  "children": [],
+                  "parent": "5213a613038c"
+                },
+                {
+                  "id": "bdbd9439b047",
+                  "title": "集群数据分片算法及动态水平扩容详解",
+                  "children": [],
+                  "parent": "5213a613038c"
+                },
+                {
+                  "id": "23fe348027fb",
+                  "title": "Jedis、Redisson客户端源码剖析",
+                  "children": [],
+                  "parent": "5213a613038c"
+                },
+                {
+                  "id": "8b13c9b62383",
+                  "title": "Redis高并发分布式锁实战",
+                  "children": [],
+                  "parent": "5213a613038c"
+                },
+                {
+                  "id": "929f76372d48",
+                  "title": "Redis缓存穿透，缓存失效，缓存雪崩实战解析",
+                  "children": [],
+                  "parent": "5213a613038c"
+                },
+                {
+                  "id": "84e033dd46e0",
+                  "title": "Redis布隆过滤器实现",
+                  "children": [],
+                  "parent": "5213a613038c"
+                },
+                {
+                  "id": "4225aad66ce7",
+                  "title": "Redis缓存设计与性能优化",
+                  "children": [],
+                  "parent": "5213a613038c"
+                }
+              ],
+              "parent": "c20ddfc65bcd"
+            },
+            {
+              "id": "4c0ae1d3945a",
+              "title": "MongoDB",
+              "style": {
+                "font-weight": "bold"
+              },
+              "parent": "c20ddfc65bcd",
+              "children": [
+                {
+                  "id": "662de3ad8759",
+                  "title": "MongoDB基础概念数据库、集合、索引及文档详解",
+                  "parent": "4c0ae1d3945a",
+                  "children": []
+                },
+                {
+                  "id": "fe60f7482a82",
+                  "title": "MongoDB高可用集群搭建实战",
+                  "parent": "4c0ae1d3945a",
+                  "children": []
+                },
+                {
+                  "id": "18dad4eae6fa",
+                  "title": "MongoDB性能优化最佳实践",
+                  "parent": "4c0ae1d3945a",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "48142abaeaa8",
+              "title": "FastDFS",
+              "style": {
+                "font-weight": "bold"
+              },
+              "parent": "c20ddfc65bcd",
+              "children": [
+                {
+                  "id": "dfb1a5ecdcc4",
+                  "title": "FastDFS应用背景和原理介绍",
+                  "parent": "48142abaeaa8",
+                  "children": []
+                },
+                {
+                  "id": "ac5ca0e4eedf",
+                  "title": "FastDFS文件存储项目实战",
+                  "parent": "48142abaeaa8",
+                  "children": []
+                },
+                {
+                  "id": "7dfb2cdee1b9",
+                  "title": "FastDFS分布式部署实战",
+                  "parent": "48142abaeaa8",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "2ae0c1caf7fd",
+              "title": "Elasticsearch<br>",
+              "style": {
+                "font-weight": "bold"
+              },
+              "children": [
+                {
+                  "id": "c4052dc6c5db",
+                  "title": "Elasticsearch、Logstash、Kibana快速入门",
+                  "children": [],
+                  "parent": "2ae0c1caf7fd"
+                },
+                {
+                  "id": "d936b8308986",
+                  "title": "Elasticsearch、Logstash、Kibana集群搭建实战",
+                  "children": [],
+                  "parent": "2ae0c1caf7fd"
+                },
+                {
+                  "id": "95a20e548c67",
+                  "title": "Elasticsearch、Logstash、Kibana架构与原理分析   ",
+                  "children": [],
+                  "parent": "2ae0c1caf7fd"
+                },
+                {
+                  "id": "0bd87f049363",
+                  "title": "Elasticsearch高级查询详解",
+                  "children": [],
+                  "parent": "2ae0c1caf7fd"
+                },
+                {
+                  "id": "058c8139a0c7",
+                  "title": "Elasticsearch底层原理详解",
+                  "children": [],
+                  "parent": "2ae0c1caf7fd"
+                }
+              ],
+              "parent": "c20ddfc65bcd",
+              "collapsed": false
+            }
+          ],
+          "parent": "cc1d591359b0"
+        },
+        {
+          "id": "9b64d5b1f340",
+          "title": "分布式框架",
+          "style": {
+            "font-weight": "bold"
+          },
+          "children": [
+            {
+              "id": "674ced48674f",
+              "title": "Zookeeper",
+              "style": {
+                "font-weight": "bold"
+              },
+              "children": [
+                {
+                  "id": "ce5aa13f4e3d",
+                  "title": "Zookeeper快速入门",
+                  "children": [],
+                  "parent": "674ced48674f"
+                },
+                {
+                  "id": "f50acece1381",
+                  "title": "Zookeeper多节点集群部署实战",
+                  "parent": "674ced48674f",
+                  "children": []
+                },
+                {
+                  "id": "28d9889d0fbe",
+                  "title": "Zookeeper典型应用场景实战",
+                  "children": [
+                    {
+                      "id": "717aa5ec90d0",
+                      "title": "服务注册与订阅",
+                      "parent": "28d9889d0fbe",
+                      "children": []
+                    },
+                    {
+                      "id": "24b20d759df2",
+                      "title": "分布式配置中心",
+                      "parent": "28d9889d0fbe",
+                      "children": []
+                    },
+                    {
+                      "id": "5015fc4a0347",
+                      "title": "分布式锁",
+                      "parent": "28d9889d0fbe",
+                      "children": []
+                    }
+                  ],
+                  "parent": "674ced48674f"
+                },
+                {
+                  "id": "3819370d04e6",
+                  "title": "Zookeeper中znode、watcher、ACL、客户端API详解",
+                  "children": [],
+                  "parent": "674ced48674f"
+                },
+                {
+                  "id": "6410ac0b2a33",
+                  "title": "Zookeeper客户端服务端源码剖析",
+                  "children": [],
+                  "parent": "674ced48674f"
+                },
+                {
+                  "id": "e6e83ec2fbac",
+                  "title": "Zookeeper迁移、扩容、监控详解",
+                  "children": [],
+                  "parent": "674ced48674f"
+                }
+              ],
+              "parent": "9b64d5b1f340"
+            },
+            {
+              "id": "8754c6c91cab",
+              "title": "Dubbo",
+              "style": {
+                "font-weight": "bold"
+              },
+              "children": [
+                {
+                  "id": "6ab995115522",
+                  "title": "Dubbo企业级应用实践",
+                  "children": [],
+                  "parent": "8754c6c91cab"
+                },
+                {
+                  "id": "2c437742d7ef",
+                  "title": "Dubbo 调用模块详解",
+                  "children": [],
+                  "parent": "8754c6c91cab"
+                },
+                {
+                  "id": "0f3d40bd618d",
+                  "title": "Dubbo容错机制与高扩展性分析",
+                  "children": [],
+                  "parent": "8754c6c91cab"
+                },
+                {
+                  "id": "d3a2fe7e5d29",
+                  "title": "Dubbo RPC协议底层原理与实现",
+                  "children": [],
+                  "parent": "8754c6c91cab"
+                },
+                {
+                  "id": "d2eb973561d7",
+                  "title": "Dubbo设计原理分析与源码详解",
+                  "children": [],
+                  "parent": "8754c6c91cab"
+                },
+                {
+                  "id": "faf4831e1e5b",
+                  "title": "Dubbo负载均衡策略分析",
+                  "children": [],
+                  "parent": "8754c6c91cab"
+                },
+                {
+                  "id": "a33d24f9e9d3",
+                  "title": "Dubbo管控后台管理与部署详解",
+                  "children": [],
+                  "parent": "8754c6c91cab"
+                }
+              ],
+              "parent": "9b64d5b1f340"
+            },
+            {
+              "id": "151694f1d6c1",
+              "title": "ShardingSphere<br>",
+              "style": {
+                "font-weight": "bold"
+              },
+              "children": [
+                {
+                  "id": "fcc6bfe0a4d2",
+                  "title": "数据读写分离及分库分表场景详解",
+                  "children": [],
+                  "parent": "151694f1d6c1"
+                },
+                {
+                  "id": "74b00bccdc5c",
+                  "title": "常见数据分片算法hash、list、range、tag详解",
+                  "children": [],
+                  "parent": "151694f1d6c1"
+                },
+                {
+                  "id": "84c27b58e389",
+                  "title": "常见数据库中间件Mycat和ShardingSphere对比",
+                  "children": [],
+                  "parent": "151694f1d6c1"
+                },
+                {
+                  "id": "500df3ba2c26",
+                  "title": "解密Sharding-jdbc核心概念与快速开始",
+                  "children": [],
+                  "parent": "151694f1d6c1"
+                },
+                {
+                  "id": "a47f90c76e77",
+                  "title": "深入Sharding-jdbc特性详解与模块划分",
+                  "children": [],
+                  "parent": "151694f1d6c1"
+                },
+                {
+                  "id": "78e13ade346a",
+                  "title": "实战订单交易中orders和ordersItem分库分表开发",
+                  "children": [],
+                  "parent": "151694f1d6c1"
+                },
+                {
+                  "id": "9dd92a9840af",
+                  "title": "深入Sharding-jdbc源码之sql解析、sql路由、sql改写、sql执行、结果合并",
+                  "children": [],
+                  "parent": "151694f1d6c1"
+                }
+              ],
+              "parent": "9b64d5b1f340"
+            },
+            {
+              "id": "43c2ab5e311f",
+              "title": "Netty<br>",
+              "style": {
+                "font-weight": "bold"
+              },
+              "children": [
+                {
+                  "id": "d6348b533319",
+                  "title": "网络与IO模型基础进阶",
+                  "children": [
+                    {
+                      "id": "69610cdc8162",
+                      "title": "HTTP请求与响应格式详解",
+                      "parent": "d6348b533319",
+                      "children": []
+                    },
+                    {
+                      "id": "0dcd6d622036",
+                      "title": "HTTP重定向与转发详解",
+                      "children": [],
+                      "parent": "d6348b533319"
+                    },
+                    {
+                      "id": "a7c2f4518e42",
+                      "title": "Cookie机制详解",
+                      "children": [],
+                      "parent": "d6348b533319"
+                    },
+                    {
+                      "id": "c077461aed6c",
+                      "title": "HTTP缓存控制与代理服务详解<br>",
+                      "children": [],
+                      "parent": "d6348b533319"
+                    },
+                    {
+                      "id": "fe6a304e97a2",
+                      "title": "HTTPS 与 SSL/TLS详解",
+                      "parent": "d6348b533319",
+                      "children": []
+                    },
+                    {
+                      "id": "16d0fa0f1c11",
+                      "title": "对称加密与非对称加密、数字签名与证书详解",
+                      "children": [],
+                      "parent": "d6348b533319"
+                    },
+                    {
+                      "id": "4393299318c9",
+                      "title": "七层网络协议详解<br>",
+                      "children": [],
+                      "parent": "d6348b533319"
+                    },
+                    {
+                      "id": "17643afeeb4f",
+                      "title": "ТСР协议与流量控制详解<br>",
+                      "children": [],
+                      "parent": "d6348b533319"
+                    },
+                    {
+                      "id": "80f6ba5fd727",
+                      "title": "TCP协议可靠性是如何保障的<br>",
+                      "children": [],
+                      "parent": "d6348b533319"
+                    },
+                    {
+                      "id": "e4ce85acc9b5",
+                      "title": "Socket与文件描述符详解<br>",
+                      "children": [],
+                      "parent": "d6348b533319"
+                    },
+                    {
+                      "id": "6731bef9da1e",
+                      "title": "Socket与Tcp协议、Http协议的关系",
+                      "parent": "d6348b533319",
+                      "children": []
+                    },
+                    {
+                      "id": "5a56de13c7c9",
+                      "title": "Socket底层实现原理详解&nbsp;<br>",
+                      "parent": "d6348b533319",
+                      "children": []
+                    }
+                  ],
+                  "parent": "43c2ab5e311f",
+                  "collapsed": false
+                },
+                {
+                  "id": "786d3b6fb944",
+                  "title": "BIO、NIO及AIO线程模型详解",
+                  "children": [],
+                  "parent": "43c2ab5e311f"
+                },
+                {
+                  "id": "37a463e06594",
+                  "title": "Netty线程模型及源码剖析",
+                  "children": [],
+                  "parent": "43c2ab5e311f"
+                },
+                {
+                  "id": "b0dd50b94e8c",
+                  "title": "高性能序列化协议protobuf及源码分析",
+                  "children": [],
+                  "parent": "43c2ab5e311f"
+                },
+                {
+                  "id": "f879a596474b",
+                  "title": "粘包拆包现象及解决方案、编解码器源码分析",
+                  "children": [],
+                  "parent": "43c2ab5e311f"
+                },
+                {
+                  "id": "1b6a12bf8abd",
+                  "title": "Netty心跳机制源码剖析",
+                  "parent": "43c2ab5e311f",
+                  "children": []
+                },
+                {
+                  "id": "5d3e4613c031",
+                  "title": "直接内存与Netty零拷贝详解",
+                  "parent": "43c2ab5e311f",
+                  "children": []
+                },
+                {
+                  "id": "cc5dd53a9953",
+                  "title": "Netty之Http协议开发应用实战（仿斗鱼弹幕系统实现）",
+                  "children": [],
+                  "parent": "43c2ab5e311f"
+                },
+                {
+                  "id": "1229119497b3",
+                  "title": "Netty之WebSocket协议开发应用实战（贪吃蛇多人联机网游实现）",
+                  "children": [],
+                  "parent": "43c2ab5e311f"
+                }
+              ],
+              "parent": "9b64d5b1f340"
+            }
+          ],
+          "parent": "cc1d591359b0"
+        }
+      ],
+      "parent": "root",
+      "collapsed": true
+    },
+    {
+      "id": "8c39e5c31bf3bd55732e",
+      "title": "微服务系列专题",
+      "lineStyle": {
+        "randomLineColor": "#80BC42"
+      },
+      "children": [
+        {
+          "id": "9243363ae695",
+          "title": "微服务架构变迁史",
+          "style": {
+            "font-weight": "bold"
+          },
+          "parent": "8c39e5c31bf3bd55732e",
+          "children": [
+            {
+              "id": "9a93b4fc417b",
+              "title": "淘宝电商微服务架构变迁史",
+              "children": [],
+              "parent": "9243363ae695"
+            },
+            {
+              "id": "288da0044e89",
+              "title": "京东电商微服务架构变迁史",
+              "children": [],
+              "parent": "9243363ae695"
+            }
+          ]
+        },
+        {
+          "id": "dcb50a9adcb0e0100a9f",
+          "title": "Spring Boot详解及源码剖析",
+          "style": {
+            "font-weight": "bold"
+          },
+          "children": [
+            {
+              "id": "bb166ed66d89ed5539d3",
+              "title": "Spring boot 快速开始及核心配置详解",
+              "children": [],
+              "parent": "dcb50a9adcb0e0100a9f"
+            },
+            {
+              "id": "9479a84918ac1c202289",
+              "title": "Spring boot 部署方式及热部署详解",
+              "children": [],
+              "parent": "dcb50a9adcb0e0100a9f"
+            },
+            {
+              "id": "a84ee6e6179c",
+              "title": "Web开发模板引擎Thymeleaf及Freemarker详解",
+              "parent": "dcb50a9adcb0e0100a9f",
+              "children": []
+            },
+            {
+              "id": "62dde449d3be0eab1593",
+              "title": "Spring Boot集成Mybatis，Redis，RabbitMq等三方框架",
+              "children": [],
+              "parent": "dcb50a9adcb0e0100a9f"
+            },
+            {
+              "id": "07ae0fdb64c8",
+              "title": "Spring Boot启动过程源码分析",
+              "parent": "dcb50a9adcb0e0100a9f",
+              "children": []
+            },
+            {
+              "id": "d12160ea1b8d",
+              "title": "Spring Boot自动装配源码分析",
+              "children": [],
+              "parent": "dcb50a9adcb0e0100a9f"
+            }
+          ],
+          "parent": "8c39e5c31bf3bd55732e"
+        },
+        {
+          "id": "4915ff88bac4",
+          "title": "Spring Cloud Alibaba详解及源码剖析<br>",
+          "style": {
+            "font-weight": "bold"
+          },
+          "children": [
+            {
+              "id": "25bc74b49a54",
+              "title": "Nacos 注册中心详解及源码分析 ",
+              "children": [
+                {
+                  "id": "3428fca28af5",
+                  "title": "服务注册与发现详解及源码剖析",
+                  "parent": "25bc74b49a54",
+                  "children": []
+                },
+                {
+                  "id": "af97b926fc4d",
+                  "title": "服务心跳与下线详解及源码剖析",
+                  "parent": "25bc74b49a54",
+                  "children": []
+                },
+                {
+                  "id": "08297d8e6ee7",
+                  "title": "服务健康检查详解及源码剖析",
+                  "parent": "25bc74b49a54",
+                  "children": []
+                },
+                {
+                  "id": "abf6968dc5aa",
+                  "title": "Nacos集群架构实战及源码剖析",
+                  "parent": "25bc74b49a54",
+                  "children": []
+                },
+                {
+                  "id": "5fc3a7e326db",
+                  "title": "Nacos集群节点间服务数据同步详解及源码剖析",
+                  "parent": "25bc74b49a54",
+                  "children": []
+                },
+                {
+                  "id": "331633cfbd54",
+                  "title": "Nacos集群架构CAP原理详解",
+                  "parent": "25bc74b49a54",
+                  "children": [
+                    {
+                      "id": "cd7a55b5aeca",
+                      "title": "AP架构详解",
+                      "parent": "331633cfbd54",
+                      "children": []
+                    },
+                    {
+                      "id": "2ab55cc51940",
+                      "title": "CP架构详解",
+                      "parent": "331633cfbd54",
+                      "children": [
+                        {
+                          "id": "35c3d4590a04",
+                          "title": "集群脑裂问题及解决方案",
+                          "parent": "2ab55cc51940",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "14d1f7fa5138",
+                  "title": "Nacos源码高并发设计精髓",
+                  "parent": "25bc74b49a54",
+                  "children": [
+                    {
+                      "id": "fe0b66beada7",
+                      "title": "防止读写并发冲突CopyOnWrite设计思想",
+                      "parent": "14d1f7fa5138",
+                      "children": []
+                    },
+                    {
+                      "id": "ae6068eb1b8a",
+                      "title": "异步任务及内存队列有效提升系统并发",
+                      "parent": "14d1f7fa5138",
+                      "children": []
+                    },
+                    {
+                      "id": "8e6b0b5dc76f",
+                      "title": "异步批量同步集群节点数据有效提升系统性能",
+                      "children": [],
+                      "parent": "14d1f7fa5138"
+                    }
+                  ]
+                },
+                {
+                  "id": "5658a37909b9",
+                  "title": "阿里云超大规模微服务注册中心设计架构详解",
+                  "parent": "25bc74b49a54",
+                  "children": []
+                }
+              ],
+              "parent": "4915ff88bac4"
+            },
+            {
+              "id": "bf4c7a7cd417",
+              "title": "Ribbon 客户端负载均衡详解及源码分析",
+              "children": [
+                {
+                  "id": "e10e0cca3153",
+                  "title": "Ribbon服务发现及客户端缓存源码剖析",
+                  "parent": "bf4c7a7cd417",
+                  "children": []
+                },
+                {
+                  "id": "3489b8d9eaf0",
+                  "title": "Ribbon客户端负载均衡源码剖析",
+                  "parent": "bf4c7a7cd417",
+                  "children": [
+                    {
+                      "id": "bf53f71d528a",
+                      "title": "轮询策略",
+                      "parent": "3489b8d9eaf0",
+                      "children": []
+                    },
+                    {
+                      "id": "af11d6e65040",
+                      "title": "随机策略",
+                      "parent": "3489b8d9eaf0",
+                      "children": []
+                    },
+                    {
+                      "id": "9a99424d5232",
+                      "title": "最小并发策略",
+                      "parent": "3489b8d9eaf0",
+                      "children": []
+                    },
+                    {
+                      "id": "106eb41cac1c",
+                      "title": "响应时间加权策略",
+                      "parent": "3489b8d9eaf0",
+                      "children": []
+                    },
+                    {
+                      "id": "a03aa49fdf20",
+                      "title": "重试策略",
+                      "parent": "3489b8d9eaf0",
+                      "children": []
+                    },
+                    {
+                      "id": "5ad01c4dd808",
+                      "title": "权重策略",
+                      "parent": "3489b8d9eaf0",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "12e5c071f9aa",
+                  "title": "自定义扩展Ribbon客户端负载均衡算法",
+                  "children": [],
+                  "parent": "bf4c7a7cd417"
+                },
+                {
+                  "id": "b507321fc520",
+                  "title": "Ribbon框架源码设计缺陷及优化",
+                  "children": [],
+                  "parent": "bf4c7a7cd417"
+                }
+              ],
+              "parent": "4915ff88bac4"
+            },
+            {
+              "id": "4df2dc3ecff3",
+              "title": "Feign 声明式服务调用详解及源码分析",
+              "children": [
+                {
+                  "id": "fd6761ec4bc4",
+                  "title": "Feign 方法参数拼接Http请求源码剖析",
+                  "parent": "4df2dc3ecff3",
+                  "children": []
+                },
+                {
+                  "id": "d2eec1cee10f",
+                  "title": "Feign 整合Ribbon源码剖析",
+                  "parent": "4df2dc3ecff3",
+                  "children": []
+                }
+              ],
+              "parent": "4915ff88bac4"
+            },
+            {
+              "id": "13b8bad976bc",
+              "title": "Sentinel 限流降级熔断详解及底层源码分析",
+              "parent": "4915ff88bac4",
+              "children": [
+                {
+                  "id": "d1e41a4be1cf",
+                  "title": "限流源码剖析",
+                  "children": [
+                    {
+                      "id": "f9a4c246248a",
+                      "title": "限流类型详解及源码剖析",
+                      "children": [
+                        {
+                          "id": "a7e9646630f3",
+                          "title": "QPS限流源码剖析",
+                          "parent": "f9a4c246248a",
+                          "children": []
+                        },
+                        {
+                          "id": "4d3bebd48170",
+                          "title": "线程数限流源码剖析",
+                          "children": [],
+                          "parent": "f9a4c246248a"
+                        }
+                      ],
+                      "parent": "d1e41a4be1cf"
+                    },
+                    {
+                      "id": "c00ed0eec383",
+                      "title": "限流模式详解及源码剖析<br>",
+                      "parent": "d1e41a4be1cf",
+                      "children": []
+                    },
+                    {
+                      "id": "e0084951a7d3",
+                      "title": "限流效果详解及源码剖析",
+                      "children": [
+                        {
+                          "id": "61dcf55fce50",
+                          "title": "请求快速失败",
+                          "children": [],
+                          "parent": "e0084951a7d3"
+                        },
+                        {
+                          "id": "a866392af1c5",
+                          "title": "请求预热",
+                          "children": [],
+                          "parent": "e0084951a7d3"
+                        },
+                        {
+                          "id": "361213f2b7f9",
+                          "title": "请求排队",
+                          "children": [],
+                          "parent": "e0084951a7d3"
+                        }
+                      ],
+                      "parent": "d1e41a4be1cf"
+                    },
+                    {
+                      "id": "f97fdc0a7794",
+                      "title": "限流算法详解及源码剖析",
+                      "parent": "d1e41a4be1cf",
+                      "children": [
+                        {
+                          "id": "651b9ade597d",
+                          "title": "计数器限流",
+                          "children": [],
+                          "parent": "f97fdc0a7794"
+                        },
+                        {
+                          "id": "6adf84dd4a88",
+                          "title": "滑动时间窗口限流源码剖析",
+                          "parent": "f97fdc0a7794",
+                          "children": []
+                        },
+                        {
+                          "id": "937ec89d6ac3",
+                          "title": "令牌桶限流源码剖析",
+                          "children": [],
+                          "parent": "f97fdc0a7794"
+                        },
+                        {
+                          "id": "4ae157bd7f1b",
+                          "title": "漏桶限流源码剖析",
+                          "parent": "f97fdc0a7794",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ],
+                  "parent": "13b8bad976bc"
+                },
+                {
+                  "id": "952c1385da4a",
+                  "title": "熔断降级源码剖析",
+                  "children": [
+                    {
+                      "id": "53b3b4443d58",
+                      "title": "服务断路器设计思想及源码剖析",
+                      "children": [
+                        {
+                          "id": "4287f5667c45",
+                          "title": "接口平均相应时间超时熔断源码剖析",
+                          "children": [],
+                          "parent": "53b3b4443d58"
+                        },
+                        {
+                          "id": "a80cecf62815",
+                          "title": "接口异常比例过高熔断源码剖析",
+                          "children": [],
+                          "parent": "53b3b4443d58"
+                        },
+                        {
+                          "id": "c8e72f7da0b5",
+                          "title": "接口异常数过多熔断源码剖析",
+                          "children": [],
+                          "parent": "53b3b4443d58"
+                        }
+                      ],
+                      "parent": "952c1385da4a"
+                    },
+                    {
+                      "id": "4a3bfd277fea",
+                      "title": "服务降级注解自动化配置源码剖析",
+                      "parent": "952c1385da4a",
+                      "children": []
+                    }
+                  ],
+                  "parent": "13b8bad976bc"
+                },
+                {
+                  "id": "16054e0d45dd",
+                  "title": "热点限流规则源码剖析",
+                  "parent": "13b8bad976bc",
+                  "children": [
+                    {
+                      "id": "2ff7d7d2743b",
+                      "title": "秒杀场景指定热点参数限流实现",
+                      "parent": "16054e0d45dd",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "79325725a9fb",
+                  "title": "系统负载限流源码剖析",
+                  "parent": "13b8bad976bc",
+                  "children": [
+                    {
+                      "id": "c0a771c20a38",
+                      "title": "系统级负载Load限流<br>",
+                      "children": [],
+                      "parent": "79325725a9fb"
+                    },
+                    {
+                      "id": "1b8ad9bc0896",
+                      "title": "系统级平均响应时间限流<br>",
+                      "parent": "79325725a9fb",
+                      "children": []
+                    },
+                    {
+                      "id": "553c3626b581",
+                      "title": "系统级线程数限流",
+                      "parent": "79325725a9fb",
+                      "children": []
+                    },
+                    {
+                      "id": "9be58e8d9916",
+                      "title": "系统级QPS限流",
+                      "parent": "79325725a9fb",
+                      "children": []
+                    },
+                    {
+                      "id": "fa05927aa1f3",
+                      "title": "系统CPU使用率限流<br>",
+                      "parent": "79325725a9fb",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "8c3ab2139354",
+                  "title": "系统黑白名单授权规则限流",
+                  "children": [],
+                  "parent": "13b8bad976bc"
+                }
+              ]
+            },
+            {
+              "id": "f5c8edeb6798",
+              "title": "Gateway 统一网关详解及源码分析",
+              "parent": "4915ff88bac4",
+              "children": [
+                {
+                  "id": "59a1de4bc9e2",
+                  "title": "服务动态路由<br>",
+                  "children": [],
+                  "parent": "f5c8edeb6798"
+                },
+                {
+                  "id": "182faae02df3",
+                  "title": "服务统一限流熔断",
+                  "children": [],
+                  "parent": "f5c8edeb6798"
+                },
+                {
+                  "id": "26727470f8de",
+                  "title": "服务统一缓存",
+                  "parent": "f5c8edeb6798",
+                  "children": []
+                },
+                {
+                  "id": "42a688e2cb0b",
+                  "title": "服务统一授权认证",
+                  "children": [],
+                  "parent": "f5c8edeb6798"
+                },
+                {
+                  "id": "dc9108ff3927",
+                  "title": "服务统一性能监控",
+                  "parent": "f5c8edeb6798",
+                  "children": []
+                },
+                {
+                  "id": "5b29646a5046",
+                  "title": "服务统一灰度发布",
+                  "parent": "f5c8edeb6798",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "299535c9240d",
+              "title": "Nacos 分布式配置中心详解",
+              "children": [
+                {
+                  "id": "c4b837247f57",
+                  "title": "高可用分布式配置中心实战",
+                  "children": [],
+                  "parent": "299535c9240d"
+                },
+                {
+                  "id": "29cc25c20660",
+                  "title": "多环境切换及配置共享",
+                  "children": [],
+                  "parent": "299535c9240d"
+                },
+                {
+                  "id": "40013b0a2c56",
+                  "title": "运行时配置动态刷新及服务热加载",
+                  "parent": "299535c9240d",
+                  "children": []
+                }
+              ],
+              "parent": "4915ff88bac4"
+            },
+            {
+              "id": "c2a50a9168ed",
+              "title": "Seata 微服务分布式事务详解及源码分析<br>",
+              "parent": "4915ff88bac4",
+              "children": [
+                {
+                  "id": "8125aa12b9c4",
+                  "title": "Seata全局事务注册源码剖析<br>",
+                  "parent": "c2a50a9168ed",
+                  "children": []
+                },
+                {
+                  "id": "a096a60aa54c",
+                  "title": "Seata分支事务客户端注册源码剖析<br>",
+                  "children": [],
+                  "parent": "c2a50a9168ed"
+                },
+                {
+                  "id": "0252cbc75b19",
+                  "title": "Seata分支事务客户端全局锁冲突自旋设计原理剖析",
+                  "children": [],
+                  "parent": "c2a50a9168ed"
+                },
+                {
+                  "id": "4c91c5a8ce54",
+                  "title": "Seata分支事务服务端全局锁设计源码剖析",
+                  "children": [],
+                  "parent": "c2a50a9168ed"
+                },
+                {
+                  "id": "b6b94852cb81",
+                  "title": "Seata全局事务提交源码剖析",
+                  "children": [],
+                  "parent": "c2a50a9168ed"
+                },
+                {
+                  "id": "35a1d4dabbfa",
+                  "title": "Seata全局事务回滚源码剖析",
+                  "children": [],
+                  "parent": "c2a50a9168ed"
+                },
+                {
+                  "id": "730f5a170aa6",
+                  "title": "Seata分支事务第二阶段异步提交源码剖析",
+                  "children": [],
+                  "parent": "c2a50a9168ed"
+                },
+                {
+                  "id": "321a31b509bf",
+                  "title": "Seata分支事务第二阶段生成反向Sql执行回滚源码剖析",
+                  "children": [],
+                  "parent": "c2a50a9168ed"
+                }
+              ]
+            },
+            {
+              "id": "06e646efb2bd",
+              "title": "微服务的用户认证与授权详解",
+              "children": [
+                {
+                  "id": "ad10927c8c42",
+                  "title": "微服务API安全机制详解<br>",
+                  "parent": "06e646efb2bd",
+                  "children": []
+                },
+                {
+                  "id": "336ac6678827",
+                  "title": "微服务安全之Oauth2协议详解<br>",
+                  "children": [],
+                  "parent": "06e646efb2bd"
+                },
+                {
+                  "id": "a9a462c711a6",
+                  "title": "微服务安全之传统Session的认证与授权",
+                  "children": [],
+                  "parent": "06e646efb2bd"
+                },
+                {
+                  "id": "f0f9406ea5eb",
+                  "title": "微服务安全之Token机制的认证与授权",
+                  "children": [],
+                  "parent": "06e646efb2bd"
+                },
+                {
+                  "id": "c78a172e0118",
+                  "title": "JWT安全认证方案详解<br>",
+                  "parent": "06e646efb2bd",
+                  "children": []
+                }
+              ],
+              "parent": "4915ff88bac4"
+            }
+          ],
+          "parent": "8c39e5c31bf3bd55732e",
+          "collapsed": false
+        },
+        {
+          "id": "5be77e768995e41c4752",
+          "title": "Spring Cloud Netflix详解及源码剖析<br>",
+          "style": {
+            "font-weight": "bold"
+          },
+          "children": [
+            {
+              "id": "5441b6a99085cb2c12d0",
+              "title": "Eureka服务注册与发现详解及源码分析",
+              "children": [],
+              "parent": "5be77e768995e41c4752"
+            },
+            {
+              "id": "3b1cd0e787f29dc7ae73",
+              "title": "Ribbon 客户端负载均衡详解及源码分析",
+              "parent": "5be77e768995e41c4752",
+              "children": []
+            },
+            {
+              "id": "5b4ee4b490b2f3390ead",
+              "title": "Fegin 声明式服务调用详解及源码分析",
+              "children": [],
+              "parent": "5be77e768995e41c4752"
+            },
+            {
+              "id": "361a207ab69a641afe3f",
+              "title": "Hystrix实现服务限流，降级，熔断详解及源码分析",
+              "children": [],
+              "parent": "5be77e768995e41c4752"
+            },
+            {
+              "id": "985c4ca6740721dfef3f",
+              "title": "Hystrix实现自定义接口降级,监控数据及监控数据聚合",
+              "children": [],
+              "parent": "5be77e768995e41c4752"
+            },
+            {
+              "id": "36274766ada58486b142",
+              "title": "Zuul统一网关详解，服务路由，过滤器使用及源码分析",
+              "children": [],
+              "parent": "5be77e768995e41c4752"
+            },
+            {
+              "id": "eac4e8b4e73eb655c353",
+              "title": "分布式配置中心Config详解",
+              "children": [],
+              "parent": "5be77e768995e41c4752"
+            },
+            {
+              "id": "c517d41cc3344d4213f3",
+              "title": "分布式链路跟踪Sleuth详解",
+              "children": [],
+              "parent": "5be77e768995e41c4752"
+            }
+          ],
+          "parent": "8c39e5c31bf3bd55732e"
+        }
+      ],
+      "parent": "root",
+      "collapsed": true
+    },
+    {
+      "id": "3ef408928f14ff69c1f4",
+      "title": "项目实战专题",
+      "lineStyle": {
+        "randomLineColor": "rgb(153,204,255)"
+      },
+      "children": [
+        {
+          "id": "fd6243ef152a",
+          "title": "亿级流量微服务电商中台",
+          "style": {
+            "font-weight": "bold"
+          },
+          "children": [
+            {
+              "id": "dff83a7ffdc4",
+              "title": "电商核心中台架构整体设计",
+              "style": {
+                "font-weight": "bold"
+              },
+              "children": [
+                {
+                  "id": "110c539159be",
+                  "title": "淘宝电商后端架构变迁史",
+                  "parent": "dff83a7ffdc4",
+                  "children": []
+                },
+                {
+                  "id": "3528678919cb",
+                  "title": "京东电商后端架构变迁史",
+                  "parent": "dff83a7ffdc4",
+                  "children": []
+                },
+                {
+                  "id": "957c4969c1e9",
+                  "title": "阿里小前台大中台架构详解",
+                  "parent": "dff83a7ffdc4",
+                  "children": [
+                    {
+                      "id": "971dc3bb0630",
+                      "title": "业务中台",
+                      "parent": "957c4969c1e9",
+                      "children": []
+                    },
+                    {
+                      "id": "e1d5679036cb",
+                      "title": "技术中台",
+                      "parent": "957c4969c1e9",
+                      "children": []
+                    },
+                    {
+                      "id": "a0c6b105dcf5",
+                      "title": "数据中台",
+                      "parent": "957c4969c1e9",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "a6bf6791edb9",
+                  "title": "领域驱动模型DDD设计",
+                  "parent": "dff83a7ffdc4",
+                  "children": [
+                    {
+                      "id": "9e293cb246a9",
+                      "title": "DDD基本概念介绍",
+                      "children": [],
+                      "parent": "a6bf6791edb9"
+                    },
+                    {
+                      "id": "2061e30b179b",
+                      "title": "DDD分层架构与微服务之间的关系",
+                      "children": [],
+                      "parent": "a6bf6791edb9"
+                    },
+                    {
+                      "id": "42aaf101bbf6",
+                      "title": "DDD与中台架构的关系",
+                      "children": [],
+                      "parent": "a6bf6791edb9"
+                    },
+                    {
+                      "id": "56099ae014f7",
+                      "title": "DDD小范围落地实战",
+                      "children": [],
+                      "parent": "a6bf6791edb9"
+                    }
+                  ]
+                }
+              ],
+              "parent": "fd6243ef152a"
+            },
+            {
+              "id": "01b6144117b2",
+              "title": "基于Spring Cloud微服务架构拆分",
+              "style": {
+                "font-weight": "bold"
+              },
+              "children": [
+                {
+                  "id": "286e60a46408",
+                  "title": "会员服务",
+                  "children": [
+                    {
+                      "id": "be5b746b8fc8",
+                      "title": "详解电商平台会员模块介绍、配置详解",
+                      "children": [],
+                      "parent": "286e60a46408"
+                    },
+                    {
+                      "id": "fd06e8c74018",
+                      "title": "详解电商平台会员业务与技术实现",
+                      "children": [],
+                      "parent": "286e60a46408"
+                    },
+                    {
+                      "id": "84061f2348b9",
+                      "title": "解密电商平台SSO单点跨域详解",
+                      "children": [],
+                      "parent": "286e60a46408"
+                    },
+                    {
+                      "id": "9e60ef30b788",
+                      "title": "解密电商平台会员数据库分库分表",
+                      "children": [],
+                      "parent": "286e60a46408"
+                    }
+                  ],
+                  "parent": "01b6144117b2"
+                },
+                {
+                  "id": "097a1eb6a4d6",
+                  "title": "商品服务",
+                  "children": [
+                    {
+                      "id": "f36df9c70573",
+                      "title": "详解电商平台商品模块介绍、配置详解",
+                      "children": [],
+                      "parent": "097a1eb6a4d6"
+                    },
+                    {
+                      "id": "61c1ae11677d",
+                      "title": "详解电商平台商品模块业务与技术实现",
+                      "children": [],
+                      "parent": "097a1eb6a4d6"
+                    },
+                    {
+                      "id": "1ba71e1e387a",
+                      "title": "解密电商平台商品详细页静态化与缓存",
+                      "children": [],
+                      "parent": "097a1eb6a4d6"
+                    }
+                  ],
+                  "parent": "01b6144117b2"
+                },
+                {
+                  "id": "c605934dc475",
+                  "title": "订单服务",
+                  "children": [
+                    {
+                      "id": "650cc6284507",
+                      "title": "详解电商平台订单模块介绍、配置详解",
+                      "children": [],
+                      "parent": "c605934dc475"
+                    },
+                    {
+                      "id": "e8e22f8908c6",
+                      "title": "详解电商平台订单业务与技术实现",
+                      "children": [],
+                      "parent": "c605934dc475"
+                    },
+                    {
+                      "id": "7383deb9cf12",
+                      "title": "解密订单分布式事务、幂等性、重复消费问题",
+                      "children": [],
+                      "parent": "c605934dc475"
+                    },
+                    {
+                      "id": "983aeb508bf1",
+                      "title": "秒杀库存分布式锁实战",
+                      "parent": "c605934dc475",
+                      "children": []
+                    }
+                  ],
+                  "parent": "01b6144117b2"
+                },
+                {
+                  "id": "5efa03393cf7",
+                  "title": "支付服务",
+                  "children": [
+                    {
+                      "id": "ba51ee5b168a",
+                      "title": "支付宝支付功能实战",
+                      "children": [],
+                      "parent": "5efa03393cf7"
+                    },
+                    {
+                      "id": "bab18dbc8765",
+                      "title": "微信支付功能实战",
+                      "children": [],
+                      "parent": "5efa03393cf7"
+                    },
+                    {
+                      "id": "45177116c7d8",
+                      "title": "商家对账功能详解",
+                      "children": [],
+                      "parent": "5efa03393cf7"
+                    }
+                  ],
+                  "parent": "01b6144117b2"
+                },
+                {
+                  "id": "27dd33c3e54f",
+                  "title": "营销服务",
+                  "children": [
+                    {
+                      "id": "7728e3f76cad",
+                      "title": "优惠券功能设计与实现",
+                      "children": [],
+                      "parent": "27dd33c3e54f"
+                    },
+                    {
+                      "id": "a6892748b547",
+                      "title": "满减优惠活动设计与实现",
+                      "parent": "27dd33c3e54f",
+                      "children": []
+                    },
+                    {
+                      "id": "33141551d3ec",
+                      "title": "团购优惠活动设计与实现",
+                      "parent": "27dd33c3e54f",
+                      "children": []
+                    }
+                  ],
+                  "parent": "01b6144117b2"
+                },
+                {
+                  "id": "667add61d960",
+                  "title": "后台服务",
+                  "children": [
+                    {
+                      "id": "487ba0e5206d",
+                      "title": "电商管理后台模块详解",
+                      "children": [],
+                      "parent": "667add61d960"
+                    },
+                    {
+                      "id": "5d68c6ad1ef0",
+                      "title": "后台系统权限、资源、账号、角色关系及技术实现",
+                      "children": [],
+                      "parent": "667add61d960"
+                    }
+                  ],
+                  "parent": "01b6144117b2"
+                }
+              ],
+              "parent": "fd6243ef152a"
+            },
+            {
+              "id": "0fdbcb6246dc",
+              "title": "电商平台技术解决方案",
+              "style": {
+                "font-weight": "bold"
+              },
+              "children": [
+                {
+                  "id": "ed961e8f6ff8",
+                  "title": "分布式解决方案",
+                  "style": {
+                    "font-weight": "bold"
+                  },
+                  "children": [
+                    {
+                      "id": "4ed0acfc8176",
+                      "title": "分布式锁",
+                      "children": [
+                        {
+                          "id": "fe5cf9347a1d",
+                          "title": "Mysql实现",
+                          "children": [],
+                          "parent": "4ed0acfc8176"
+                        },
+                        {
+                          "id": "a972e5775376",
+                          "title": "Redis实现",
+                          "children": [],
+                          "parent": "4ed0acfc8176"
+                        },
+                        {
+                          "id": "39fc9decd428",
+                          "title": "Zookeeper实现",
+                          "children": [],
+                          "parent": "4ed0acfc8176"
+                        }
+                      ],
+                      "parent": "ed961e8f6ff8"
+                    },
+                    {
+                      "id": "832125a4e714",
+                      "title": "分布式事务",
+                      "children": [
+                        {
+                          "id": "92ee6e9ecd46",
+                          "title": "基于2PC/3PC实现",
+                          "children": [
+                            {
+                              "id": "5133cbcb0eb8",
+                              "title": "Atomic框架",
+                              "children": [],
+                              "parent": "92ee6e9ecd46"
+                            }
+                          ],
+                          "parent": "832125a4e714"
+                        },
+                        {
+                          "id": "4617259041b7",
+                          "title": "基于消息队列实现",
+                          "children": [
+                            {
+                              "id": "60e36832ddb2",
+                              "title": "Rabbitmq",
+                              "children": [],
+                              "parent": "4617259041b7"
+                            },
+                            {
+                              "id": "3d0e1f7b2a3f",
+                              "title": "Rocketmq",
+                              "children": [],
+                              "parent": "4617259041b7"
+                            }
+                          ],
+                          "parent": "832125a4e714"
+                        },
+                        {
+                          "id": "ec281703b07f",
+                          "title": "基于蚂蚁金服TCC方案实现",
+                          "children": [
+                            {
+                              "id": "59e4e245d770",
+                              "title": "Tcc-transaction框架",
+                              "children": [],
+                              "parent": "ec281703b07f"
+                            },
+                            {
+                              "id": "9bc436d1b538",
+                              "title": "Bytetcc框架",
+                              "children": [],
+                              "parent": "ec281703b07f"
+                            }
+                          ],
+                          "parent": "832125a4e714"
+                        },
+                        {
+                          "id": "805d288bc77c",
+                          "title": "基于阿里巴巴Seata方案实现<br>",
+                          "parent": "832125a4e714",
+                          "children": []
+                        }
+                      ],
+                      "parent": "ed961e8f6ff8"
+                    },
+                    {
+                      "id": "f77ab49325f4",
+                      "title": "分布式调度中心",
+                      "children": [
+                        {
+                          "id": "81923b148cfb",
+                          "title": "Quartz框架",
+                          "children": [],
+                          "parent": "f77ab49325f4"
+                        },
+                        {
+                          "id": "f0e66804c3e6",
+                          "title": "xxl-job框架",
+                          "children": [],
+                          "parent": "f77ab49325f4"
+                        },
+                        {
+                          "id": "7dd115a584d6",
+                          "title": "TBSchedule框架",
+                          "children": [],
+                          "parent": "f77ab49325f4"
+                        }
+                      ],
+                      "parent": "ed961e8f6ff8"
+                    },
+                    {
+                      "id": "3444eb19730a",
+                      "title": "分布式配置中心<br>",
+                      "children": [
+                        {
+                          "id": "292456b22e9c",
+                          "title": "阿里巴巴Nacos框架<br>",
+                          "children": [],
+                          "parent": "3444eb19730a"
+                        },
+                        {
+                          "id": "4fa343578e9c",
+                          "title": "Spring Cloud Config",
+                          "children": [],
+                          "parent": "3444eb19730a"
+                        },
+                        {
+                          "id": "fa4f0b517ee4",
+                          "title": "Apollo框架",
+                          "children": [],
+                          "parent": "3444eb19730a"
+                        }
+                      ],
+                      "parent": "ed961e8f6ff8"
+                    },
+                    {
+                      "id": "83454fadb485",
+                      "title": "分布式全局序列号",
+                      "children": [
+                        {
+                          "id": "428815638c81",
+                          "title": "雪花算法",
+                          "children": [],
+                          "parent": "83454fadb485"
+                        },
+                        {
+                          "id": "2e9666a1fc64",
+                          "title": "Redis实现",
+                          "children": [],
+                          "parent": "83454fadb485"
+                        }
+                      ],
+                      "parent": "ed961e8f6ff8"
+                    },
+                    {
+                      "id": "d2b7a5e3bb20",
+                      "title": "分布式Session",
+                      "children": [
+                        {
+                          "id": "c9796f4d036e",
+                          "title": "Spring Session实现",
+                          "children": [],
+                          "parent": "d2b7a5e3bb20"
+                        }
+                      ],
+                      "parent": "ed961e8f6ff8"
+                    },
+                    {
+                      "id": "bca9bd4b2bf4",
+                      "title": "海量数据分库分表",
+                      "parent": "ed961e8f6ff8",
+                      "children": [
+                        {
+                          "id": "11c97a4a0b83",
+                          "title": "ShardingSphere实战",
+                          "parent": "bca9bd4b2bf4",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ],
+                  "parent": "0fdbcb6246dc"
+                },
+                {
+                  "id": "f5164725f214",
+                  "title": "高并发秒杀系统实现",
+                  "style": {
+                    "font-weight": "bold"
+                  },
+                  "parent": "0fdbcb6246dc",
+                  "children": [
+                    {
+                      "id": "ee07dd779d27",
+                      "title": "Redis与JVM多级缓存架构",
+                      "children": [
+                        {
+                          "id": "c96b5984fad0",
+                          "title": "亿级流量商品详情页Openresty多级缓存架构方案实战",
+                          "parent": "ee07dd779d27",
+                          "children": []
+                        },
+                        {
+                          "id": "f05c9f1898af",
+                          "title": "缓存穿透、缓存失效、缓存雪崩及热点缓存重建优化及实战",
+                          "children": [],
+                          "parent": "ee07dd779d27"
+                        }
+                      ],
+                      "parent": "f5164725f214"
+                    },
+                    {
+                      "id": "d02947469a27",
+                      "title": "消息中间件流量削峰与异步处理",
+                      "children": [],
+                      "parent": "f5164725f214"
+                    },
+                    {
+                      "id": "c522db316d5d",
+                      "title": "限流策略实现",
+                      "parent": "f5164725f214",
+                      "children": [
+                        {
+                          "id": "55066855471d",
+                          "title": "Nginx限流",
+                          "parent": "c522db316d5d",
+                          "children": []
+                        },
+                        {
+                          "id": "7b3e4bd3dfed",
+                          "title": "计数器&nbsp;<br>",
+                          "parent": "c522db316d5d",
+                          "children": []
+                        },
+                        {
+                          "id": "41ee5d64568b",
+                          "title": "滑动时间窗口&nbsp;<br>",
+                          "children": [],
+                          "parent": "c522db316d5d"
+                        },
+                        {
+                          "id": "491e758d86cf",
+                          "title": "令牌桶、漏桶算法&nbsp;<br>",
+                          "children": [],
+                          "parent": "c522db316d5d"
+                        },
+                        {
+                          "id": "a479bf98c6e6",
+                          "title": "Sentinel/Hystrix限流",
+                          "children": [],
+                          "parent": "c522db316d5d"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "a2d459270656",
+                      "title": "大促高峰服务降级实现",
+                      "parent": "f5164725f214",
+                      "children": []
+                    },
+                    {
+                      "id": "9c7e1dd6da16",
+                      "title": "系统安全防刷策略实现",
+                      "parent": "f5164725f214",
+                      "children": []
+                    },
+                    {
+                      "id": "c2703afe4f2c",
+                      "title": "性能调优实战",
+                      "parent": "f5164725f214",
+                      "children": [
+                        {
+                          "id": "b9c312c24d36",
+                          "title": "高并发场景JVM GC调优实战",
+                          "parent": "c2703afe4f2c",
+                          "children": []
+                        },
+                        {
+                          "id": "ed7d787f896b",
+                          "title": "高并发场景Mysql调优实战",
+                          "parent": "c2703afe4f2c",
+                          "children": []
+                        },
+                        {
+                          "id": "cf66c76495d7",
+                          "title": "高并发场景Tomcat调优实战",
+                          "children": [],
+                          "parent": "c2703afe4f2c"
+                        },
+                        {
+                          "id": "3896b133de25",
+                          "title": "高并发场景Nginx调优实战",
+                          "children": [],
+                          "parent": "c2703afe4f2c"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "8bccd89c157c",
+                      "title": "性能监控",
+                      "children": [
+                        {
+                          "id": "8adc8be0889b",
+                          "title": "监控系统Prometheus使用详解<br>",
+                          "children": [],
+                          "parent": "8bccd89c157c"
+                        },
+                        {
+                          "id": "f5206d916867",
+                          "title": "监控报警系统Grafana图表配置及异常报警<br>",
+                          "parent": "8bccd89c157c",
+                          "children": []
+                        },
+                        {
+                          "id": "c181af25420f",
+                          "title": "Prometheus+Grafana 监控电商系统各项性能指标",
+                          "children": [],
+                          "parent": "8bccd89c157c"
+                        }
+                      ],
+                      "parent": "f5164725f214"
+                    }
+                  ]
+                },
+                {
+                  "id": "7d6240aa48e5",
+                  "title": "集群上云",
+                  "style": {
+                    "font-weight": "bold"
+                  },
+                  "children": [
+                    {
+                      "id": "d5bca8bfa9ba",
+                      "title": "虚拟容器技术详解<br>",
+                      "style": {
+                        "font-weight": "normal"
+                      },
+                      "children": [
+                        {
+                          "id": "57e446d1817c",
+                          "title": "虚拟服务之Docker",
+                          "style": {
+                            "font-weight": "normal"
+                          },
+                          "parent": "d5bca8bfa9ba",
+                          "children": [
+                            {
+                              "id": "c78aa4094833",
+                              "title": "Docker的镜像，仓库，容器详解",
+                              "parent": "57e446d1817c",
+                              "children": []
+                            },
+                            {
+                              "id": "9c43e060b9d0",
+                              "title": "快速开始搭建Docker环境",
+                              "children": [],
+                              "parent": "57e446d1817c"
+                            },
+                            {
+                              "id": "5796a052c44f",
+                              "title": "DockerFile使用详解",
+                              "children": [],
+                              "parent": "57e446d1817c"
+                            },
+                            {
+                              "id": "2e4a9a01dc72",
+                              "title": "DockerCompose集成式应用组合",
+                              "parent": "57e446d1817c",
+                              "children": []
+                            },
+                            {
+                              "id": "7ee6530b8073",
+                              "title": "Docker服务编排实现",
+                              "children": [],
+                              "parent": "57e446d1817c"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "7d9ab1eecba5",
+                          "title": "Kubernetes容器管理",
+                          "style": {
+                            "font-weight": "normal"
+                          },
+                          "children": [
+                            {
+                              "id": "fac6661675a1",
+                              "title": "Kubernetes介绍与快速开始",
+                              "children": [],
+                              "parent": "7d9ab1eecba5"
+                            },
+                            {
+                              "id": "dff19aed5ee9",
+                              "title": "Kubernetes对象&amp;Master组件&amp;Node节点详解",
+                              "parent": "7d9ab1eecba5",
+                              "children": []
+                            },
+                            {
+                              "id": "27cb867e56b7",
+                              "title": "Kubernetes生产集群环境搭建与使用",
+                              "children": [],
+                              "parent": "7d9ab1eecba5"
+                            }
+                          ],
+                          "parent": "d5bca8bfa9ba"
+                        }
+                      ],
+                      "parent": "7d6240aa48e5"
+                    },
+                    {
+                      "id": "02d19a265bf4",
+                      "title": "电商中台项目云服务部署",
+                      "parent": "7d6240aa48e5",
+                      "children": [
+                        {
+                          "id": "bbaddcea5d70",
+                          "title": "项目整体Docker容器化部署",
+                          "parent": "02d19a265bf4",
+                          "children": []
+                        },
+                        {
+                          "id": "287ba319a2c1",
+                          "title": "项目整体Kubernetes集群部署",
+                          "parent": "02d19a265bf4",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": "13de182915ed",
+                      "title": "秒杀系统项目云服务部署",
+                      "parent": "7d6240aa48e5",
+                      "children": [
+                        {
+                          "id": "3466a955a00a",
+                          "title": "项目整体Docker容器化部署",
+                          "parent": "13de182915ed",
+                          "children": []
+                        },
+                        {
+                          "id": "a0f4cbaf3f25",
+                          "title": "项目整体Kubernetes集群部署",
+                          "children": [],
+                          "parent": "13de182915ed"
+                        }
+                      ]
+                    }
+                  ],
+                  "parent": "0fdbcb6246dc"
+                }
+              ],
+              "parent": "fd6243ef152a"
+            }
+          ],
+          "parent": "3ef408928f14ff69c1f4",
+          "collapsed": false
+        },
+        {
+          "id": "7565ace7b3c2afb91d5b",
+          "title": "BAT内部自研分布式调用链中间件",
+          "style": {
+            "font-weight": "bold"
+          },
+          "parent": "3ef408928f14ff69c1f4",
+          "children": [
+            {
+              "id": "098368d3507524dac7fc",
+              "title": "分布示调用链简介与发展史",
+              "parent": "7565ace7b3c2afb91d5b",
+              "children": []
+            },
+            {
+              "id": "81b9d7bf3412c532e607",
+              "title": "调用链平台概要设计",
+              "parent": "7565ace7b3c2afb91d5b",
+              "children": []
+            },
+            {
+              "id": "d5062f4dfb02774e61a2",
+              "title": "Javassist、字节码插桩、JavaAGENT",
+              "parent": "7565ace7b3c2afb91d5b",
+              "children": []
+            },
+            {
+              "id": "bc7effaff6823133d6a0",
+              "title": "埋点采集",
+              "parent": "7565ace7b3c2afb91d5b",
+              "children": [
+                {
+                  "id": "012bf12d24fb7c37bbd2",
+                  "title": "采集点为：Dubbo、Jdbc Driver、Spring",
+                  "parent": "bc7effaff6823133d6a0",
+                  "children": []
+                },
+                {
+                  "id": "c3c5fe80f65722ba10f8",
+                  "title": "采集点为：Tomcat、Http、Redis",
+                  "parent": "bc7effaff6823133d6a0",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "d1e1acf94f6c49a681ca",
+              "title": "Classloader深入加载机制",
+              "parent": "7565ace7b3c2afb91d5b",
+              "children": []
+            },
+            {
+              "id": "7f93085c908b95361626",
+              "title": "深入分析调用链中Threadlocal、Threadpool应用",
+              "parent": "7565ace7b3c2afb91d5b",
+              "children": []
+            },
+            {
+              "id": "7b936454a145ff0c5502",
+              "title": "分布式环境部署与问题排查",
+              "parent": "7565ace7b3c2afb91d5b",
+              "children": []
+            }
+          ],
+          "collapsed": false
+        }
+      ],
+      "parent": "root",
+      "collapsed": true
+    },
+    {
+      "id": "9960a4612861",
+      "title": "互联网工具专题<br>",
+      "lineStyle": {
+        "randomLineColor": "#127c97"
+      },
+      "children": [
+        {
+          "id": "1e60f1112132",
+          "title": "Git",
+          "style": {
+            "font-weight": "bold"
+          },
+          "children": [
+            {
+              "id": "3e78591133ef",
+              "title": "整体认知GIT体系结构",
+              "children": [],
+              "parent": "1e60f1112132"
+            },
+            {
+              "id": "f187f57e691d",
+              "title": "Git客户端与服务端快速搭建",
+              "children": [],
+              "parent": "1e60f1112132"
+            },
+            {
+              "id": "c425b8f3353a",
+              "title": "Git的核心命令详解",
+              "children": [],
+              "parent": "1e60f1112132"
+            },
+            {
+              "id": "afa70f844670",
+              "title": "Git企业应用最佳实践",
+              "children": [],
+              "parent": "1e60f1112132"
+            }
+          ],
+          "parent": "9960a4612861",
+          "collapsed": false
+        },
+        {
+          "id": "897887ca9746",
+          "title": "Maven",
+          "style": {
+            "font-weight": "bold"
+          },
+          "children": [
+            {
+              "id": "deef24548163",
+              "title": "Maven生命周期详解",
+              "children": [],
+              "parent": "897887ca9746",
+              "collapsed": false
+            },
+            {
+              "id": "cf9cfdb8fadf",
+              "title": "Maven插件体系详解",
+              "children": [],
+              "parent": "897887ca9746"
+            },
+            {
+              "id": "8cb79972f484",
+              "title": "Maven核心命令详解",
+              "children": [],
+              "parent": "897887ca9746"
+            },
+            {
+              "id": "68f1ca40ad24",
+              "title": "Maven的pom配置体系详解",
+              "children": [],
+              "parent": "897887ca9746"
+            },
+            {
+              "id": "1c4d0025d201",
+              "title": "Nexus私服搭建实战",
+              "children": [],
+              "parent": "897887ca9746"
+            }
+          ],
+          "parent": "9960a4612861",
+          "collapsed": false
+        },
+        {
+          "id": "36905f4803ce",
+          "title": "Jenkins",
+          "style": {
+            "font-weight": "bold"
+          },
+          "children": [
+            {
+              "id": "b81299718b11",
+              "title": "整体认知Jenkins体系结构",
+              "children": [],
+              "parent": "36905f4803ce"
+            },
+            {
+              "id": "0bd7d9b8d217",
+              "title": "Jenkins如何做持续集成",
+              "children": [],
+              "parent": "36905f4803ce"
+            },
+            {
+              "id": "914b9f4a8f96",
+              "title": "Jenkins搭建及使用详解",
+              "children": [],
+              "parent": "36905f4803ce"
+            },
+            {
+              "id": "d88d133e3137",
+              "title": "Jenkins插件体系详解",
+              "children": [],
+              "parent": "36905f4803ce"
+            }
+          ],
+          "parent": "9960a4612861",
+          "collapsed": false
+        },
+        {
+          "id": "b905fa727327",
+          "title": "Linux",
+          "style": {
+            "font-weight": "bold"
+          },
+          "children": [
+            {
+              "id": "047bd35cc5eb",
+              "title": "Linux原理、启动、整体架构讲解",
+              "children": [],
+              "parent": "b905fa727327"
+            },
+            {
+              "id": "16df518b4fc2",
+              "title": "Linux运维常用命令实战<br>",
+              "children": [],
+              "parent": "b905fa727327"
+            },
+            {
+              "id": "04cc0a22e5f9",
+              "title": "Linux用户与权限讲解<br>",
+              "parent": "b905fa727327",
+              "children": []
+            },
+            {
+              "id": "123acb6056f9",
+              "title": "Shell脚本编程实战<br>",
+              "parent": "b905fa727327",
+              "children": []
+            }
+          ],
+          "parent": "9960a4612861",
+          "collapsed": false
+        },
+        {
+          "id": "88296e4026c0",
+          "title": "虚拟容器<br>",
+          "style": {
+            "font-weight": "bold"
+          },
+          "parent": "9960a4612861",
+          "children": [
+            {
+              "id": "86322def4ea0",
+              "title": "Docker",
+              "parent": "88296e4026c0",
+              "children": [
+                {
+                  "id": "4423ba7f44ad",
+                  "title": "Docker的镜像，仓库，容器详解",
+                  "parent": "86322def4ea0",
+                  "children": []
+                },
+                {
+                  "id": "6b167a0e20a5",
+                  "title": "快速开始搭建Docker环境",
+                  "children": [],
+                  "parent": "86322def4ea0"
+                },
+                {
+                  "id": "e6b1fedc32f0",
+                  "title": "DockerFile使用详解",
+                  "children": [],
+                  "parent": "86322def4ea0"
+                },
+                {
+                  "id": "af4e4124de8d",
+                  "title": "DockerCompose集成式应用组合",
+                  "parent": "86322def4ea0",
+                  "children": []
+                },
+                {
+                  "id": "4b3424536839",
+                  "title": "Docker服务编排实现",
+                  "children": [],
+                  "parent": "86322def4ea0"
+                }
+              ]
+            },
+            {
+              "id": "3a98f3c94509",
+              "title": "Kubernetes",
+              "style": {
+                "font-weight": "normal"
+              },
+              "children": [
+                {
+                  "id": "f75fdb32b5e4",
+                  "title": "Kubernetes介绍与快速开始",
+                  "children": [],
+                  "parent": "3a98f3c94509"
+                },
+                {
+                  "id": "4ea9cf833c54",
+                  "title": "Kubernetes对象&amp;Master组件&amp;Node节点详解",
+                  "parent": "3a98f3c94509",
+                  "children": []
+                },
+                {
+                  "id": "4b045fa6eb7e",
+                  "title": "Kubernetes生产集群环境搭建与使用",
+                  "children": [],
+                  "parent": "3a98f3c94509"
+                }
+              ],
+              "parent": "88296e4026c0"
+            }
+          ]
+        }
+      ],
+      "parent": "root",
+      "collapsed": true
+    },
+    {
+      "id": "0a86b9c36930d4ef1607",
+      "title": "拓展技术专题<br>",
+      "lineStyle": {
+        "randomLineColor": "rgb(51, 156, 168)"
+      },
+      "parent": "root",
+      "children": [
+        {
+          "id": "efbcf4e39990",
+          "title": "面试专题",
+          "style": {
+            "font-weight": "bold"
+          },
+          "children": [
+            {
+              "id": "09921e318fbdcec6380f",
+              "title": "360度规划您的职业生涯",
+              "children": [],
+              "parent": "efbcf4e39990"
+            },
+            {
+              "id": "1815618ab3fc0260b508",
+              "title": "360度讲解面试中常见问题、礼仪、细节、技巧",
+              "parent": "efbcf4e39990",
+              "children": []
+            },
+            {
+              "id": "100b2e4fa11b657d426b",
+              "title": "程序员修炼之道之简历技术优化、项目优化",
+              "children": [],
+              "parent": "efbcf4e39990"
+            },
+            {
+              "id": "2dbce50f9370",
+              "title": "精讲常见BAT面试题目",
+              "parent": "efbcf4e39990",
+              "children": [
+                {
+                  "id": "ddc296ed6d9a",
+                  "title": "百度常见面试与答案",
+                  "parent": "2dbce50f9370",
+                  "children": []
+                },
+                {
+                  "id": "c087949400f0",
+                  "title": "阿里巴巴常见面试题与答案",
+                  "parent": "2dbce50f9370",
+                  "children": []
+                },
+                {
+                  "id": "c7474f1c68bd",
+                  "title": "美团常见面试题与答案",
+                  "parent": "2dbce50f9370",
+                  "children": []
+                },
+                {
+                  "id": "80562b2e9410",
+                  "title": "京东常见面试题与答案",
+                  "parent": "2dbce50f9370",
+                  "children": []
+                },
+                {
+                  "id": "1868f0a1b895",
+                  "title": "消息中间件面试专题与解答",
+                  "parent": "2dbce50f9370",
+                  "children": []
+                },
+                {
+                  "id": "8d46b7723ab1",
+                  "title": "Java并发面试及解答",
+                  "parent": "2dbce50f9370",
+                  "children": []
+                },
+                {
+                  "id": "d5fe516187a7",
+                  "title": "数据库面试专题及解答",
+                  "parent": "2dbce50f9370",
+                  "children": []
+                },
+                {
+                  "id": "5229708530b6",
+                  "title": "JVM面试专题及解答",
+                  "parent": "2dbce50f9370",
+                  "children": []
+                },
+                {
+                  "id": "950a55fa928d",
+                  "title": "Spring全家桶面试专题及解答",
+                  "parent": "2dbce50f9370",
+                  "children": []
+                },
+                {
+                  "id": "4673c0426497",
+                  "title": "MyBatis面试专题及解答",
+                  "parent": "2dbce50f9370",
+                  "children": []
+                }
+              ]
+            }
+          ],
+          "parent": "0a86b9c36930d4ef1607",
+          "collapsed": false
+        },
+        {
+          "id": "13dafa7bd0ad",
+          "title": "算法与数据结构",
+          "style": {
+            "font-weight": "bold"
+          },
+          "children": [
+            {
+              "id": "5e0a95eaad6a",
+              "title": "算法复杂性分析<br>",
+              "children": [],
+              "parent": "13dafa7bd0ad"
+            },
+            {
+              "id": "913f1504e2ed",
+              "title": "线性表、链表数据结构详解<br>",
+              "children": [],
+              "parent": "13dafa7bd0ad"
+            },
+            {
+              "id": "22e15af48b17",
+              "title": "队列、栈结数据结构详解<br>",
+              "children": [],
+              "parent": "13dafa7bd0ad"
+            },
+            {
+              "id": "019721db53c8",
+              "title": "基础排序算法详解<br>",
+              "children": [],
+              "parent": "13dafa7bd0ad"
+            },
+            {
+              "id": "79784fe5d5bd",
+              "title": "数论&amp;枚举&amp;递归&amp;分治&amp;回溯思想详解",
+              "children": [],
+              "parent": "13dafa7bd0ad"
+            },
+            {
+              "id": "af5eab07ab7e",
+              "title": "贪心算法与动态规划",
+              "children": [],
+              "parent": "13dafa7bd0ad"
+            },
+            {
+              "id": "ea8a69441329",
+              "title": "快排与归并排序详解<br>",
+              "children": [],
+              "parent": "13dafa7bd0ad"
+            },
+            {
+              "id": "fc174c5f6f98",
+              "title": "二分搜索、哈希表详解<br>",
+              "children": [],
+              "parent": "13dafa7bd0ad"
+            },
+            {
+              "id": "3bd30d896e9c",
+              "title": "并查集算法详解<br>",
+              "children": [],
+              "parent": "13dafa7bd0ad"
+            },
+            {
+              "id": "a5b6641fab0e",
+              "title": "树，基本概念，二叉树(遍历)，红黑树详解<br>",
+              "children": [],
+              "parent": "13dafa7bd0ad"
+            },
+            {
+              "id": "5f3872a60062",
+              "title": "B树，Trie树，赫夫曼树，堆树详解",
+              "parent": "13dafa7bd0ad",
+              "children": []
+            },
+            {
+              "id": "db08ada449e1",
+              "title": "图论、深度优先遍历、广度优先遍历详解<br>",
+              "children": [],
+              "parent": "13dafa7bd0ad"
+            },
+            {
+              "id": "464c43722716",
+              "title": "最小生成树、最短路径详解<br>",
+              "children": [],
+              "parent": "13dafa7bd0ad"
+            },
+            {
+              "id": "4ae1ecbbca08",
+              "title": "布隆过滤器与位图详解",
+              "children": [],
+              "parent": "13dafa7bd0ad"
+            }
+          ],
+          "parent": "0a86b9c36930d4ef1607"
+        },
+        {
+          "id": "36a5f9a8c109",
+          "title": "区块链技术(Java版)",
+          "style": {
+            "font-weight": "bold"
+          },
+          "parent": "0a86b9c36930d4ef1607",
+          "children": [
+            {
+              "id": "bbd69844214e",
+              "title": "项目架构与技术点讲解",
+              "parent": "36a5f9a8c109",
+              "children": []
+            },
+            {
+              "id": "47df0f990a10",
+              "title": "区块链原理整体介绍",
+              "parent": "36a5f9a8c109",
+              "children": []
+            },
+            {
+              "id": "b32a6df95848",
+              "title": "区块链整体结构设计与实现",
+              "parent": "36a5f9a8c109",
+              "children": [
+                {
+                  "id": "e38747ad5e0b",
+                  "title": "共识机制",
+                  "parent": "b32a6df95848",
+                  "children": []
+                },
+                {
+                  "id": "93c3804fab0f",
+                  "title": "工作量证明原理",
+                  "parent": "b32a6df95848",
+                  "children": []
+                },
+                {
+                  "id": "ceab0099b853",
+                  "title": "挖矿算法",
+                  "parent": "b32a6df95848",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "c4a601a64b94",
+              "title": "密码学",
+              "parent": "36a5f9a8c109",
+              "children": [
+                {
+                  "id": "ce6d8ac2799c",
+                  "title": "对称加密",
+                  "parent": "c4a601a64b94",
+                  "children": []
+                },
+                {
+                  "id": "6b4e92ddb342",
+                  "title": "哈希(hash)加密",
+                  "parent": "c4a601a64b94",
+                  "children": []
+                },
+                {
+                  "id": "b9bb9e50d862",
+                  "title": "非对称加密",
+                  "parent": "c4a601a64b94",
+                  "children": []
+                },
+                {
+                  "id": "4e43516f61b0",
+                  "title": "数字签名",
+                  "parent": "c4a601a64b94",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "2b3038b3b810",
+              "title": "比特币钱包的设计与实现",
+              "parent": "36a5f9a8c109",
+              "children": [
+                {
+                  "id": "2b9c4a69dad7",
+                  "title": "钱包结构",
+                  "parent": "2b3038b3b810",
+                  "children": []
+                },
+                {
+                  "id": "74d301ab28ef",
+                  "title": "钱包转账",
+                  "parent": "2b3038b3b810",
+                  "children": []
+                },
+                {
+                  "id": "db0e15133589",
+                  "title": "钱包余额",
+                  "parent": "2b3038b3b810",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "6931aa3c876e",
+              "title": "比特币交易的设计与实现",
+              "parent": "36a5f9a8c109",
+              "children": [
+                {
+                  "id": "251713dc457e",
+                  "title": "比特币交易UTXO",
+                  "parent": "6931aa3c876e",
+                  "children": []
+                },
+                {
+                  "id": "e1c70cfca46f",
+                  "title": "比特币余额",
+                  "parent": "6931aa3c876e",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "b3292c2c7b6b",
+              "title": "P2P去中心化网络设计与实现",
+              "parent": "36a5f9a8c109",
+              "children": [
+                {
+                  "id": "a279f7e048f9",
+                  "title": "区块链P2P网络",
+                  "parent": "b3292c2c7b6b",
+                  "children": []
+                },
+                {
+                  "id": "de115da83044",
+                  "title": "网络节点发现",
+                  "parent": "b3292c2c7b6b",
+                  "children": []
+                },
+                {
+                  "id": "095f304c6dbd",
+                  "title": "网络节点通讯",
+                  "parent": "b3292c2c7b6b",
+                  "children": []
+                },
+                {
+                  "id": "abbcc51fe9dc",
+                  "title": "区块广播",
+                  "parent": "b3292c2c7b6b",
+                  "children": []
+                },
+                {
+                  "id": "4e294ef9f385",
+                  "title": "交易广播",
+                  "parent": "b3292c2c7b6b",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "78e1c94365dc",
+              "title": "课程详细内容请咨询图灵学院诸葛老师，QQ：3376224996<br>",
+              "children": [],
+              "parent": "36a5f9a8c109"
+            }
+          ],
+          "collapsed": false
+        },
+        {
+          "id": "6941e31d4268",
+          "title": "大数据技术",
+          "style": {
+            "font-weight": "bold"
+          },
+          "children": [
+            {
+              "id": "3629a2184bd3",
+              "title": "第一阶段--开发环境构建",
+              "parent": "6941e31d4268",
+              "children": [
+                {
+                  "id": "59555f25e5fe",
+                  "title": "CentOS7 操作系统介绍",
+                  "parent": "3629a2184bd3",
+                  "children": []
+                },
+                {
+                  "id": "1807f411f989",
+                  "title": "intellij idea及插件介绍",
+                  "children": [],
+                  "parent": "3629a2184bd3"
+                },
+                {
+                  "id": "5f60f4c6b333",
+                  "title": "版本控制软件使用",
+                  "children": [],
+                  "parent": "3629a2184bd3"
+                }
+              ]
+            },
+            {
+              "id": "6e9b361df408",
+              "title": "第二阶段--HADOOP核心",
+              "children": [
+                {
+                  "id": "822dbe01c6c4",
+                  "title": "Hadoop概述",
+                  "children": [],
+                  "parent": "6e9b361df408"
+                },
+                {
+                  "id": "2381c024bd65",
+                  "title": "Hadoop资源调度框架Yarn介绍",
+                  "children": [],
+                  "parent": "6e9b361df408"
+                },
+                {
+                  "id": "34054e60e262",
+                  "title": "分布式文件系统HDFS",
+                  "children": [],
+                  "parent": "6e9b361df408"
+                },
+                {
+                  "id": "915ff69972b1",
+                  "title": "分布式框架MapReduce",
+                  "children": [],
+                  "parent": "6e9b361df408"
+                }
+              ],
+              "parent": "6941e31d4268"
+            },
+            {
+              "id": "2d9d04efe94c",
+              "title": "第三阶段--大数据通用生态圈组件",
+              "children": [
+                {
+                  "id": "984207dfdf10",
+                  "title": "数据采集器",
+                  "children": [],
+                  "parent": "2d9d04efe94c"
+                },
+                {
+                  "id": "1e92896cb917",
+                  "title": "数据仓库与OLAP",
+                  "children": [],
+                  "parent": "2d9d04efe94c"
+                },
+                {
+                  "id": "5779a49cd05a",
+                  "title": "NoSql数据库",
+                  "children": [],
+                  "parent": "2d9d04efe94c"
+                },
+                {
+                  "id": "3b4b231e344d",
+                  "title": "Zookeeper与分布式一致性算法",
+                  "children": [],
+                  "parent": "2d9d04efe94c"
+                },
+                {
+                  "id": "90d642a40a27",
+                  "title": "中间件",
+                  "children": [],
+                  "parent": "2d9d04efe94c"
+                }
+              ],
+              "parent": "6941e31d4268"
+            },
+            {
+              "id": "706d0279d69b",
+              "title": "第四阶段--Spark及生态圈",
+              "children": [
+                {
+                  "id": "c1b7dea7e729",
+                  "title": "Spark核心",
+                  "children": [],
+                  "parent": "706d0279d69b"
+                },
+                {
+                  "id": "b0c9d6c97858",
+                  "title": "SparkSQL",
+                  "children": [],
+                  "parent": "706d0279d69b"
+                },
+                {
+                  "id": "f58ffc9a3dbe",
+                  "title": "实时计算",
+                  "children": [],
+                  "parent": "706d0279d69b"
+                }
+              ],
+              "parent": "6941e31d4268"
+            },
+            {
+              "id": "6fb5226cf77f",
+              "title": "第五阶段--基于spark的数据挖掘算法",
+              "children": [
+                {
+                  "id": "0b9e94537163",
+                  "title": "协同滤波实现推荐系统",
+                  "children": [],
+                  "parent": "6fb5226cf77f"
+                },
+                {
+                  "id": "6c0f6a48ae08",
+                  "title": "Spark下的聚类与分类算法",
+                  "children": [],
+                  "parent": "6fb5226cf77f"
+                },
+                {
+                  "id": "654e8aa01272",
+                  "title": "Spark下的图计算",
+                  "children": [],
+                  "parent": "6fb5226cf77f"
+                }
+              ],
+              "parent": "6941e31d4268"
+            }
+          ],
+          "parent": "0a86b9c36930d4ef1607",
+          "collapsed": false
+        },
+        {
+          "id": "ed29c942f5d2",
+          "title": "人工智能技术",
+          "style": {
+            "font-weight": "bold"
+          },
+          "children": [
+            {
+              "id": "8ed673659448",
+              "title": "用一台电脑搭建一个机器人开发环境",
+              "parent": "ed29c942f5d2",
+              "children": []
+            },
+            {
+              "id": "b8205e324eba",
+              "title": "Python编程入门和应用范例",
+              "children": [],
+              "parent": "ed29c942f5d2"
+            },
+            {
+              "id": "df4cc9258942",
+              "title": "ROS客户端库和应用范例",
+              "parent": "ed29c942f5d2",
+              "children": []
+            },
+            {
+              "id": "bb91a5ce37c4",
+              "title": "开发你的第一个机器人应用",
+              "children": [],
+              "parent": "ed29c942f5d2"
+            },
+            {
+              "id": "b180e35c43d0",
+              "title": "如何协调一个机器人内部的行为",
+              "parent": "ed29c942f5d2",
+              "children": []
+            },
+            {
+              "id": "4dfbca68c90f",
+              "title": "计算机视觉基础与应用",
+              "parent": "ed29c942f5d2",
+              "children": []
+            },
+            {
+              "id": "0cd974570815",
+              "title": "机器人建图和导航",
+              "parent": "ed29c942f5d2",
+              "children": []
+            },
+            {
+              "id": "9ef5ead0b4ac",
+              "title": "开发一个智能安保机器人",
+              "parent": "ed29c942f5d2",
+              "children": []
+            },
+            {
+              "id": "0f2260852b78",
+              "title": "神经网络基础与应用",
+              "parent": "ed29c942f5d2",
+              "children": []
+            },
+            {
+              "id": "258a42057315",
+              "title": "基于ROS开发多机器人应用",
+              "parent": "ed29c942f5d2",
+              "children": []
+            },
+            {
+              "id": "adb258bdec4f",
+              "title": "群体智能",
+              "parent": "ed29c942f5d2",
+              "children": []
+            },
+            {
+              "id": "546e7881430e",
+              "title": "人工智能前沿探讨&nbsp;类脑计算",
+              "parent": "ed29c942f5d2",
+              "children": []
+            },
+            {
+              "id": "07f613670b43",
+              "title": "人工智能前沿探讨深度强化学习（DRL）",
+              "children": [],
+              "parent": "ed29c942f5d2"
+            }
+          ],
+          "parent": "0a86b9c36930d4ef1607",
+          "collapsed": false
+        }
+      ],
+      "collapsed": true
+    }
+  ]
+}
