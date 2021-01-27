@@ -6,6 +6,7 @@
     <version>1.0.0</version>
     <modules>
         <module>study-xmind</module>
+        <module>study-hibernate-validator</module>
     </modules>
     <packaging>pom</packaging>
     <name>java-study</name>
