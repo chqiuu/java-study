@@ -7,6 +7,8 @@
     <modules>
         <module>study-xmind</module>
         <module>study-hibernate-validator</module>
+        <module>study-design-pattern</module>
+        <module>study-httpclient5</module>
     </modules>
     <packaging>pom</packaging>
     <name>java-study</name>
