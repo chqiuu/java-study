@@ -8,15 +8,25 @@ import org.apache.hc.client5.http.impl.DefaultSchemePortResolver;
 import org.apache.hc.client5.http.impl.classic.CloseableHttpClient;
 import org.apache.hc.client5.http.impl.classic.CloseableHttpResponse;
 import org.apache.hc.client5.http.impl.classic.HttpClientBuilder;
+import org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManagerBuilder;
 import org.apache.hc.client5.http.impl.routing.DefaultRoutePlanner;
+import org.apache.hc.client5.http.io.HttpClientConnectionManager;
+import org.apache.hc.client5.http.ssl.NoopHostnameVerifier;
+import org.apache.hc.client5.http.ssl.SSLConnectionSocketFactory;
 import org.apache.hc.core5.http.HttpHost;
 import org.apache.hc.core5.http.ParseException;
 import org.apache.hc.core5.http.io.entity.EntityUtils;
 import org.apache.hc.core5.http.protocol.HttpContext;
+import org.apache.hc.core5.ssl.SSLContexts;
+import org.apache.hc.core5.ssl.TrustStrategy;
 import org.junit.jupiter.api.Test;
 
+import javax.net.ssl.SSLContext;
 import java.io.IOException;
 import java.net.InetAddress;
+import java.security.KeyManagementException;
+import java.security.KeyStoreException;
+import java.security.NoSuchAlgorithmException;
 
 @Slf4j
 public class HttpClientTest {
@@ -71,4 +81,36 @@ public class HttpClientTest {
         }
     }
 
+    @Test
+    void httpClient5SslConnect() {
+        RequestConfig config = RequestConfig.custom().build();
+        HttpGet httpGet = new HttpGet("https://blog.csdn.net/QIU176161650/article/details/118388848");
+        httpGet.setConfig(config);
+        HttpClientBuilder httpClientBuilder = HttpClientBuilder.create();
+        try (CloseableHttpClient httpClient = httpClientBuilder.setConnectionManager(getHttpClientConnectionManager()).build()) {
+            CloseableHttpResponse response = httpClient.execute(httpGet);
+            String body = EntityUtils.toString(response.getEntity(), "UTF-8");
+            log.info(body);
+            // TODO 获取页面内容实现
+        } catch (IOException | ParseException | NoSuchAlgorithmException | KeyStoreException | KeyManagementException e) {
+            e.printStackTrace();
+        }
+    }
+
+    private static HttpClientConnectionManager getHttpClientConnectionManager() throws NoSuchAlgorithmException, KeyStoreException, KeyManagementException {
+        return PoolingHttpClientConnectionManagerBuilder.create()
+                .setSSLSocketFactory(getSslConnectionSocketFactory())
+                .build();
+    }
+
+    /**
+     * 支持SSL
+     *
+     * @return SSLConnectionSocketFactory
+     */
+    private static SSLConnectionSocketFactory getSslConnectionSocketFactory() throws NoSuchAlgorithmException, KeyStoreException, KeyManagementException {
+        TrustStrategy acceptingTrustStrategy = (x509Certificates, s) -> true;
+        SSLContext sslContext = SSLContexts.custom().loadTrustMaterial(null, acceptingTrustStrategy).build();
+        return new SSLConnectionSocketFactory(sslContext, new NoopHostnameVerifier());
+    }
 }
